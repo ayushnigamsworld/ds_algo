@@ -6,7 +6,7 @@ package Arrays;
 public class Kadanes {
 
     public static void main(String aa[]) {
-        int input[] = {1, -2, -3, 1, -4};
+        int input[] = {-1, -2, -3, -4};
         System.out.println(maximum_Contiguos_Sum(input, input.length));
     }
 
