@@ -65,7 +65,7 @@ public class KthSmallest {
         }
     }
 
-    public static int partition(int arr[], int low, int high) {
+    private static int partition(int arr[], int low, int high) {
         Random r = new Random();
         int randd = r.nextInt(high - low + 1) + low;
         swap(arr, randd, high);
