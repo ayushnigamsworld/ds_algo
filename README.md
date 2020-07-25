@@ -31,3 +31,18 @@ Here is the list of the topics:
 -> Strings
 
 -> Tree
+
+
+
+------------------------
+For contributing do create a branch and put a Pull Request.
+
+Contribution motivation:
+
+1. There is a better implementation in terms of space complexity or time complexity
+
+2. Currently it's all in Java, would love to have it in other languages.
+
+3. Increase the readability
+
+4. Provide real world solutions using specific DS.
