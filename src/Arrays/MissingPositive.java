@@ -37,11 +37,11 @@ package Arrays;
  */
 public class MissingPositive {
     public static void main(String aa[]) {
-        int[] sampleInput = new int[]{  7, 11, 9, 6, 1, 2, 3, 4, 5};
+        int[] sampleInput = new int[]{  12, 3, 7, 2, 9, 1};
         System.out.println(missingPositive(sampleInput));
     }
 
-    private static int missingPositive(int arr[]) {
+    private static int missingPositiveWithSpace(int arr[]) {
         boolean[] checker = new boolean[1000000];
         for (int i=0;i< arr.length; i++) {
             if (arr[i] > 0) {
@@ -54,5 +54,32 @@ public class MissingPositive {
             }
         }
         return -1;
+    }
+
+    /**
+     * O(n) time.
+     * O(1) space
+     * Amazon. Solution from Rachit Jain
+     * @param arr
+     * @return
+     */
+    private static int missingPositive(int arr[]) {
+        for (int i=0; i<arr.length; i++) {
+            while (arr[i] >0 && arr[i] <= arr.length && arr[i] != i + 1) {
+                swap(arr, i, arr[i]-1);
+            }
+        }
+        for (int i=0; i<arr.length; i++) {
+            if (arr[i] != i+1) {
+                return i+1;
+            }
+        }
+        return -1;
+    }
+
+    private static void swap(int arr[], int l, int r) {
+        int temp = arr[l];
+        arr[l] = arr[r];
+        arr[r] = temp;
     }
 }

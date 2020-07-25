@@ -9,6 +9,7 @@ public class NaivePatternSearch {
         for (int i=0; i< str.length(); i++) {
             int p = i;
             while (p< str.length() && (p-i)< pat.length() && str.charAt(p) == pat.charAt(p-i)) {
+                System.out.print(" p--> "+ p);
                 p++;
             }
             if (p-i == pat.length()) {
