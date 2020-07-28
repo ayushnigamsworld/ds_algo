@@ -1,5 +1,6 @@
 package Tree;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -29,5 +30,11 @@ public class FindPath {
         }
         p.remove(root);
         return false;
+    }
+
+    public static int findPathLength(Node root, int target) {
+        List<Node> temp = new ArrayList<>();
+        findPath(root, temp, target);
+        return temp.size();
     }
 }

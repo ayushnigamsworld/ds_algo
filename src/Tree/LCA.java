@@ -32,7 +32,7 @@ public class LCA {
         System.out.println(lcaNaive(root, 8, 3));
     }
 
-    private static Node lca(Node root, int a, int b) {
+    public static Node lca(Node root, int a, int b) {
         if (root == null) {
             return null;
         }
