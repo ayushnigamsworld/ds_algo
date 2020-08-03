@@ -1,10 +1,10 @@
 package BST;
 
 public class Node {
-    Node(int d) {
+    public Node(int d) {
         this.data = d;
     }
-    int data;
-    Node left;
-    Node right;
+    public int data;
+    public Node left;
+    public Node right;
 }
