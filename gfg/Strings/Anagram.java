@@ -3,6 +3,7 @@ package Strings;
 public class Anagram {
     public static void main(String[] args) {
         System.out.println(isAnagram("listen", "silent"));
+        System.out.println("2000".compareTo("20000"));
     }
     static boolean isAnagram(String s1, String s2) {
         int abcd[] = new int[26];

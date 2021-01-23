@@ -1,0 +1,228 @@
+Greedy Algorithm
+----------------------------------------------------------------------------------------------------------
+-always choosing the next piece that offers the most obvious and immediate benefit. 
+-the problems where choosing locally optimal also leads to global solution are best fit for Greedy.
+
+Example -
+Given weights and values of N items, we need to put these items in a knapsack of capacity W to get the maximum total value in the knapsack.
+Note: Unlike 0/1 knapsack, you are allowed to break the item. 
+
+Input:
+N = 3, W = 50
+values[] = {60,100,120}
+weight[] = {10,20,30}
+Output: 240.00
+Explanation: Total maximum value of item
+we can have is 240.00 from the given
+capacity of sack. 
+
+Input:
+N = 2, W = 50
+values[] = {60,100}
+weight[] = {10,20}
+Output: 160.00
+Explanation: Total maximum value of item
+we can have is 160.00 from the given
+capacity of sack.
+
+Questions -
+----------
+
+1. Disjoint Intervals
+----------------------
+Given a set of N intervals denoted by 2D array A of size N x 2, the task is to find the length of maximal set of mutually disjoint intervals.
+Two intervals [x, y] & [p, q] are said to be disjoint if they do not have any point in common.
+Return a integer denoting the length of maximal set of mutually disjoint intervals.
+
+Problem Constraints
+1 <= N <= 105
+
+1 <= A[i][0] <= A[i][1] <= 109
+
+ A = [
+       [1, 4]
+       [2, 3]
+       [4, 6]
+       [8, 9]
+     ]
+ ans -> 3	
+ A = [
+       [1, 9]
+       [2, 3]
+       [5, 7]
+     ]	 
+ ans -> 2
+
+1. Meeting rooms
+-----------------
+Given an 2D integer array A of size N x 2 denoting time intervals of different meetings.
+
+Where:
+
+A[i][0] = start time of the ith meeting.
+A[i][1] = end time of the ith meeting.
+Find the minimum number of conference rooms required so that all meetings can be done.
+
+ A = [      [0, 30]
+            [5, 10]
+            [15, 20]
+     ]
+ ans -> 2
+ 
+ A =  [     [1, 18]
+            [18, 23]
+            [15, 29]
+            [4, 15]
+            [2, 11]
+            [5, 13]
+      ]
+ ans -> 4
+
+2. Best Time to Buy and Sell Stock
+---------------------------------
+Say you have an array prices for which the ith element is the price of a given stock on day i.
+
+Design an algorithm to find the maximum profit. You may complete as many transactions as you like (i.e., buy one and sell one share of the stock multiple times).
+
+Note: You may not engage in multiple transactions at the same time (i.e., you must sell the stock before you buy again).
+
+Example 1:
+
+Input: [7,1,5,3,6,4]
+Output: 7
+Explanation: Buy on day 2 (price = 1) and sell on day 3 (price = 5), profit = 5-1 = 4.
+             Then buy on day 4 (price = 3) and sell on day 5 (price = 6), profit = 6-3 = 3.
+Example 2:
+
+Input: [1,2,3,4,5]
+Output: 4
+Explanation: Buy on day 1 (price = 1) and sell on day 5 (price = 5), profit = 5-1 = 4.
+             Note that you cannot buy on day 1, buy on day 2 and sell them later, as you are
+             engaging multiple transactions at the same time. You must sell before buying again.
+Example 3:
+
+Input: [7,6,4,3,1]
+Output: 0
+Explanation: In this case, no transaction is done, i.e. max profit = 0. 
+
+4.Min Jumps Array
+------------------
+Given an array of non-negative integers, A, of length N, you are initially positioned at the first index of the array.
+Each element in the array represents your maximum jump length at that position.
+Return the minimum number of jumps required to reach the last index.
+If it is not possible to reach the last index, return -1.
+
+Input 1:
+    A = [2, 1, 1]
+
+Output 1:
+    1
+    
+Explanation 1:
+    The shortest way to reach index 2 is
+        Index 0 -> Index 2
+    that requires only 1 jump.
+
+Input 2:
+    A = [2,3,1,1,4]
+
+Output 2:
+    2
+
+Explanation 2:
+    The shortest way to reach index 4 is
+        Index 0 -> Index 1 -> Index 4
+    that requires 2 jumps.
+	
+int Solution::jump(vector<int> &A) {
+    stack <int> st;
+    int ele=A[0];
+    int i=1;
+    int ans=1;
+    if(A.size()==1)
+        return 0;
+    if(ele==0)
+        return -1;
+    while(i<A.size()-1)
+    {
+        st.push(i);
+        ele--;
+        // cout<<A[i]<<"<---pos now "<<ele<<"<--ele now "<<endl;
+       
+        if(ele==0)
+        {
+            int maxval=0;
+            while(!st.empty())
+            {
+                maxval=max(maxval,A[st.top()]-(i-st.top()));
+                st.pop();
+            }
+            if(maxval==0)
+                return -1;
+            ele=maxval;
+            ans++;
+            
+        }
+        i++;
+    }
+    if(ele>0)
+        return ans;
+    return -1;
+}
+
+5.Gas Station
+--------------
+Given two integer arrays A and B of size N.
+There are N gas stations along a circular route, where the amount of gas at station i is A[i].
+
+You have a car with an unlimited gas tank and it costs B[i] of gas to travel from station i
+to its next station (i+1). You begin the journey with an empty tank at one of the gas stations.
+
+Return the minimum starting gas station’s index if you can travel around the circuit once, otherwise return -1.
+
+You can only travel in one direction. i to i+1, i+2, … n-1, 0, 1, 2.. Completing the circuit means starting at i and
+ending up at i again.
+
+Input 1:
+    A =  [1, 2]
+    B =  [2, 1]
+Output 1:
+    1
+    Explanation 1:
+        If you start from index 0, you can fill in A[0] = 1 amount of gas. Now your tank has 1 unit of gas. But you need B[0] = 2 gas to travel to station 1. 
+        If you start from index 1, you can fill in A[1] = 2 amount of gas. Now your tank has 2 units of gas. You need B[1] = 1 gas to get to station 0. 
+		So, you travel to station 0 and still have 1 unit of gas left over. You fill in A[0] = 1 unit of additional gas, making your current gas = 2. It costs you B[0] = 2 to get to station 1, which you do and complete the circuit. 
+		int Solution::canCompleteCircuit(const vector<int> &P, const vector<int> &D) {
+    int i=0;
+   int j=0;
+   int N=P.size();
+   while(i<N)
+   {
+       if(P[i]>=D[i])
+       {
+           j=(i+1)%N;
+           int prev=P[i]-D[i];
+           while(j!=i)
+          {
+               prev+=P[j];
+               if(prev>=D[j])
+               {
+                   prev-=D[j];
+                   j++;
+                   j%=N;
+               }
+               else
+                break;
+           }
+            if(j==i)
+                return i;
+            else if(j<i)
+                return -1;
+            else
+                i=j;
+       }
+       else
+        i++;
+   }
+   return -1;
+}

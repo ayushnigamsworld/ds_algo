@@ -1,0 +1,96 @@
+Greedy Algo -2
+
+Activity Selection Problem
+------------------------------
+
+You are given n activities with their start and finish times. Select the maximum number of activities that can be performed by a single person, 
+assuming that a person can only work on a single activity at a time.
+Example:
+
+Example 1 : Consider the following 3 activities sorted by
+by finish time.
+     start[]  =  {10, 12, 20};
+     finish[] =  {20, 25, 30};
+A person can perform at most two activities. The 
+maximum set of activities that can be executed 
+is {0, 2} [ These are indexes in start[] and 
+finish[] ]
+
+Example 2 : Consider the following 6 activities 
+sorted by by finish time.
+     start[]  =  {1, 3, 0, 5, 8, 5};
+     finish[] =  {2, 4, 6, 7, 9, 9};
+A person can perform at most four activities. The 
+maximum set of activities that can be executed 
+is {0, 1, 3, 4} [ These are indexes in start[] and 
+finish[] ]
+
+
+Job Sequencing Problem
+------------------------
+Given an array of jobs where every job has a deadline and associated profit if the job is finished before the deadline. 
+It is also given that every job takes the single unit of time, so the minimum possible deadline for any job is 1. 
+How to maximize total profit if only one job can be scheduled at a time.
+
+Input: Four Jobs with following 
+deadlines and profits
+JobID  Deadline  Profit
+  a      4        20   
+  b      1        10
+  c      1        40  
+  d      1        30
+Output: Following is maximum 
+profit sequence of jobs
+        c, a   
+
+
+Input:  Five Jobs with following
+deadlines and profits
+JobID   Deadline  Profit
+  a       2        100
+  b       1        19
+  c       2        27
+  d       1        25
+  e       3        15
+Output: Following is maximum 
+profit sequence of jobs
+        c, a, e
+		
+		
+Egyptian Fraction
+------------------
+- Every positive fraction can be represented as sum of unique unit fractions. 
+- A fraction is unit fraction if numerator is 1 and denominator is a positive integer, for example 1/3 is a unit fraction.
+
+Egyptian Fraction Representation of 2/3 is 1/2 + 1/6
+Egyptian Fraction Representation of 6/14 is 1/3 + 1/11 + 1/231
+Egyptian Fraction Representation of 12/13 is 1/2 + 1/3 + 1/12 + 1/156
+
+Solution -
+- find the greatest possible unit fraction
+- recur for the remaining part
+consider 6/14, we first find ceiling of 14/6, i.e., 3. So the first unit fraction becomes 1/3, then recur for (6/14 – 1/3) i.e., 4/42.
+
+
+Huffman Encoding
+------------------
+- Prefix Codes - code assigned to one character is not the prefix of code assigned to any other character. 
+  It makes sure that there is no ambiguity when decoding the generated bitstream.
+- Example
+	a	0
+	b	1
+	c 	00
+	d 	01
+	find - 0001
+- Example
+character   Frequency
+    a            5
+    b           9
+    c           12
+    d           13
+    e           16
+    f           45
+	
+	
+- 
+

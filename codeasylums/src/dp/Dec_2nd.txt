@@ -1,0 +1,159 @@
+Count ways to reach the nth stair using step 1, 2 or 3 / Coin Change Problem
+----------------------------------------------------------------------------
+A child is running up a staircase with n steps and can hop either 1 step, 2 steps, or 3 steps at a time. 
+Implement a method to count how many possible ways the child can run up the stairs.
+Input : 4
+Output : 7
+Explantion:
+Below are the four ways
+ 1 step + 1 step + 1 step + 1 step
+ 1 step + 2 step + 1 step
+ 2 step + 1 step + 1 step 
+ 1 step + 1 step + 2 step
+ 2 step + 2 step
+ 3 step + 1 step
+ 1 step + 3 step
+ 
+ 	n = 10 --- 9, 8,	7
+	n = 9  --- 8,	7,	6
+ 			8  --- 7,	6,	5
+  
+  int dp[n]; // n  : max value mentioned in the constraints for the question
+  int steps(int n) // n : number of steps
+	{
+		if(n<0)
+      	return 0;
+  	if(n==0)
+      	return 1;
+    if(dp[n]!=-1)
+      	return dp[n];
+  	int ans = steps(n-1) + steps(n-2) + steps(n-3);
+  	return dp[n] = ans;
+	}
+  
+Cutting a Rod 
+-------------
+Given a rod of length n inches and an array of prices that contains prices of all pieces of size smaller than n. 
+Determine the maximum value obtainable by cutting up the rod and selling the pieces. For example, if length of the 
+rod is 8 and the values of different pieces are given as following, then the maximum obtainable value is 22 
+(by cutting in two pieces of lengths 2 and 6) 
+example - 1, 5, 8, 9, 10, 17, 17, 20
+
+  1--2--3--4--5--6--7--8
+  1	 5  8  9  10 17 17 20
+  
+  1 + 1 +............... = 1*8=8
+  2 + 6 ------------------5 + 17 = 22
+  8 --------------------------20
+  7 + 1 ----------------------17 + 1 = 18
+  4 + 4 -------------------- 9 + 9 = 18
+  3 + 4 + 1 ----------------- 8 + 9 + 1 = 18
+  
+ int dp[n]; 
+int costOfRod(int len)
+{
+  if(len<0)
+    	return INT_MIN;
+  if(len==0)
+    	return 0;
+	if(dp[len]!=-1)
+    	return dp[len];
+	int ans=INT_MIN;
+  for(int i=0;i<N;i++)
+  {
+    ans = max(ans,price[i]+fun(len-i));
+  }
+  return dp[len]=ans;
+}
+1 2 3 4
+2 3 1 99
+ 
+  rod = 3
+  ans = 99
+  
+Longest Common Subsequence
+--------------------------
+LCS for input Sequences “ABCDGH” and “ABCDGH” is “ADH” of length 3.
+LCS for input Sequences “AGGTAB” and “GXTXAYB” is “GTAB” of length 4.
+  
+  AGGTAB  														GXTXAYB
+  |																		 |
+   ptr1																ptr2
+   
+int dp[n1][n2];//n1-- length of str1 , n2 ---  
+int LCS(int ptr1, int ptr2)
+{
+  if(ptr1 == str1.size() || ptr2 == str2.size() ) // eigther one pointer is at the end of the string
+    	return 0;
+  if(dp[ptr1][ptr2]!=-1)
+    	return dp[ptr1][ptr2];
+  int ans=0;
+  if(str1[ptr1] == str2[ptr2]) // character at both pointers are matching so we just need to add it to answer
+  		ans = 1 + LCS(ptr1+1,ptr2+1);
+  else // characters are mismatch and we need to consider different choices .. i.e keep one pointer constant and move the other
+    	ans = max(LCS(ptr1+1,ptr2),LCS(ptr1,ptr2+1));
+  return dp[ptr1][ptr2] = ans;
+}
+
+Edit Distance
+---------------
+Given two strings str1 and str2 and below operations that can performed on str1. Find minimum number of edits (operations) required to convert ‘str1’ into ‘str2’.  
+
+Insert
+Remove
+Replace
+
+
+Input:   str1 = "geek", str2 = "gesek"
+Output:  1
+We can convert str1 into str2 by inserting a 's'.
+
+Input:   str1 = "nabxe", str2 = "nabh"
+Output:  3
+We can convert str1 into str2 by replacing xx by bh and removing e.
+
+int dp[n1][n2]={-1};
+int editDist(int ptr1, int ptr2)
+{
+	if(ptr1==str1.size())
+    return str2.size()-ptr2-1;
+  if(ptr2==str2.size())
+    return str1.size()-ptr1-1;
+  if(dp[ptr1][ptr2]!=-1)
+    	return dp[ptr1][ptr2];
+  int ans=INT_MAX;
+  if(str1[ptr1] == str2[]ptr2])
+    ans = editDist(ptr1+1,ptr2+1);
+  else
+  {
+  	ans = min(ans,1+editDist(ptr1,ptr2+1));// we are inserting in string 1
+    ans = min(ans,1+editDist(ptr1+1,ptr2));// we are removing from string 1
+    ans = min(ans,1+editDist(ptr1+1,ptr2+1));// we are replacing the characters of string 1
+  }
+  return dp[ptr1][ptr2]=ans;
+}
+
+  
+  
+nae 	--- remove
+nabxe -- instert
+nabe -- replace 
+
+str1	str2
+naxe  nabhueiywrwuieyruiweryuiewyruiewyuiwe
+	  |		 |
+
+str1																				str2
+nabxejeahrushrjshdfluidsfgjlfdhdhgsluih 		nabh
+	 |																			  		|		
+
+
+
+
+
+
+
+
+
+'
+      

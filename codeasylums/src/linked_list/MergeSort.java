@@ -8,7 +8,8 @@ public class MergeSort {
         linkedList.head.next.next.next = new Node(5);
         linkedList.head.next.next.next.next = new Node(3);
         linkedList.head.next.next.next.next.next = new Node(2);
-        mergeSort(linkedList.head);
+        Node sorted = mergeSort(linkedList.head);
+        System.out.println(sorted);
     }
 
     private static Node mergeSort(Node head) {
@@ -25,9 +26,12 @@ public class MergeSort {
     }
 
     private static Node findMid(Node head) {
+        if (head == null) {
+            return null;
+        }
         Node temp = head;
         Node fast = head;
-        while (fast != null && fast.next != null) {
+        while (fast.next != null && fast.next.next != null) {
             temp = temp.next;
             fast = fast.next.next;
         }
@@ -72,9 +76,6 @@ public class MergeSort {
     }
 
     private static Node mergeRecursion(Node left, Node right) {
-        if (left == null && right == null) {
-            return null;
-        }
         if (left == null) {
             return right;
         }

@@ -1,0 +1,59 @@
+Steps to solve DP Problems
+----------------------------
+1. Overlapping subproblems - define the recursive function
+2. Optimal Substructures - define the recusive call for the sub problems
+3. Perform any required action on a particular recursive state
+4. Define the base cases
+5. Add memoization
+
+Hints For DP -
+1. In any question with an array present , we need to have index as a parameter for the recursive function
+2. The answer to the question is returned from the recursion and dp table stores the answer for that particular sub problem
+3. Base case is taken in such a way that it never becomes part of your answer so that this particular case is eliminated from the process
+
+Longest Increasing Subsequence -
+------------------------------
+Input: arr[] = {3, 10, 2, 1, 20} //3,10,20 ... 10,20 ... 2,20 ... 1,20
+Output: Length of LIS = 3
+The longest increasing subsequence is 3, 10, 20
+
+Input: arr[] = {3, 2} // 2,3
+Output: Length of LIS = 1
+The longest increasing subsequences are {3} and {2}
+
+Input: arr[] = {50, 3, 10, 7, 40, 80} // 50,80 .. 3,10,30,80 .. 3,7,40,80 .. 10,40,80 .. 
+Output: Length of LIS = 4
+The longest increasing subsequence is {3, 7, 40, 80}
+ 
+Array - 50, 3, 10, 7, 40, 80
+Sub-sequence - delete elements from the given array and the order of other non deleted elements should not be changing - 50,3,80 .. 3,10,40,... 10,3,7 
+Sub-array -   continuous part of array - 50,3,10 ... 10,7,40 ..50,3,10,7,40
+
+Min Cost Path 
+-------------
+Given a cost matrix cost[][] and a position (m, n) in cost[][], write a function that returns cost of minimum cost path to reach (m, n) 
+from (0, 0). Each cell of the matrix represents a cost to traverse through that cell. The total cost of a path to reach (m, n) is the 
+sum of all the costs on that path (including both source and destination). You can only traverse down, right and diagonally lower cells 
+from a given cell, i.e., from a given cell (i, j), cells (i+1, j), (i, j+1), and (i+1, j+1) can be traversed. 
+You may assume that all costs are positive integers.
+{1, 2, 3} 
+{4, 8, 2} 
+{1, 5, 3}
+
+Ans - 8
+ int dp[N][M]; 
+int fun(int x, int y)
+{
+	if(x==N || y == M)
+    return 1e9;
+  if(x==N-1 && y==M-1) // we have reached the last element
+    	return cost[x][y];
+  if(dp[x][y]!=-1)
+    	return dp[x][y];
+ int ans = INT_MAX;
+	ans = min(ans, cost[x][y]+fun(x+1,y)); // down
+  ans = min(ans, cost[x][y]+fun(x,y+1)); // right
+  ans = min(ans, cost[x][y]+fun(x+1,y+1)); // diagonal
+  return dp[x][y] = ans;
+}
+  

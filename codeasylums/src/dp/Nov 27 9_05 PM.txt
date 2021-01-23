@@ -1,0 +1,141 @@
+Dynamic Programming - 
+
+- How to identify whether DP is applicable to a problem ?
+	-- 1. Whenever you have "choices" to select from
+
+
+Brute Force - We try try to get all possible solutions by force and from the solutions we pick the best one.
+Smart Brute Force ---> DP -- remember/store the solution -- as I already visited the path before
+
+Properties
+1) Overlapping Subproblems - Like Divide and Conquer, Dynamic Programming combines solutions to sub-problems. But unlike DnC, 
+							the subproblems will overlap in case of DP
+2) Optimal Substructure - A given problems has Optimal Substructure Property if optimal solution of the given problem can be 
+							obtained by using optimal solutions of its subproblems.
+              
+              
+             Array[0:5] -- 5,11,19,22,3,4,7 
+             			SubProblem1-					5,11,19					--- 19
+                  Subproblem2-        	11,19,22,3,4,7 	---- 22
+                  Problem  -- 22
+          	Subproblem -   max(Arrar[0:2],Array[1:5])
+          
+          
+2 Ways of Solving a DP problem-
+1. Top- Down
+2. Bottom - Up
+
+Tabulation vs Memoization
+-------------------------
+Tabulation: Bottom Up
+Memoization: Top Down
+
+
+Fibonacci Series
+
+Fib[n]= Fib[n-1]+Fib[n-2]
+0,1,1,2,3,5,8,13,21,34.............
+
+Top - Down Approach = Recusuive Brute force + Memoization (Rememring the solution)
+n=7 -----------------------------------------top
+fib(7) --- fib(6)+fib(5)
+fib(6) --- fib(5)+fib(4)
+fib(5) --- fib(4)+fib(3)
+fib(4) --- fib(3)+fib(2)
+.......................
+,.....................
+.......................
+fib(0) = 0
+fib(1) = 1----------------------------------bottom
+
+dp ----------------- used for Memoization here
+int fib(int n) 
+{ 
+   if (dp[n] == NIL) ------------------------------ we have not stored the value already, we will iterate the sub problems
+   { 
+      if (n <= 1) 
+         dp[n] = n;  ---------------------------------bottom
+      else
+         dp[n] = fib(n-1) + fib(n-2); --------------------recursion call --------------- we are stioring the last iterated values
+   } 
+  
+   return dp[n]; 
+} 
+				
+How to approach a DP problem - Top_down Method
+  
+ 1) Overlapping Subproblems 
+ 2) Optimal Substructure   
+ 3) Memoization -----------1%
+ 
+Overlapping Subproblem -- State of recursion 
+                        -- how you define the recursive function 
+                        -- this defines how you declare the dp array 
+                        -- this is nothing but the parameters you pass to the function
+
+Optimal Substructure    -- declaring recursive call to the subproblems
+												-- using the best results of the subproblems
+
+
+Memoization  -- we declare an array depending on the state of recursion (Overlapping Subproblem )
+  					 -- we store the best result for each problem in the array
+             -- if wer have already calculate the value ... dont iterate down, just use the stored value
+
+
+n=7 -----------------------------------------top
+fib(7) --- fib(6)+fib(5)
+fib(6) --- fib(5)+fib(4)
+fib(5) --- fib(4)+fib(3)
+fib(4) --- fib(3)+fib(2)
+.......................
+,.....................
+.......................
+fib(0) = 0
+fib(1) = 1----------------------------------bottom                       
+
+
+** fib(n) ------ but the state of the recusion or it is a kind of sub problem
+ int dp[100]={-1}; // no fib value can be negative
+
+int fib(int n) --- state of recusion -- parameter = n
+{
+	if(n<=2)
+  	return n;
+  if(dp[n]!=-1)// already calculated
+  	return dp[n];
+	int ans = fib(n-1)+ fib(n-2); ------ this is how we are using the best results of the sub problem (Optimal sub strcutre) / just a recusive call to sub problems
+	dp[n]=ans;
+}
+  
+fib(7) --- fib(6)+fib(5)
+fib(6) --- fib(5)+fib(4)
+fib(5) --- fib(4)+fib(3)
+fib(4) --- fib(3)+fib(2)
+fib(3) --- fib(2)+fib(1)
+fib(2) --- fib(1)+fib(0)
+fib(0) = 0
+fib(1) = 1 
+  
+  7 -- 1
+  6 -- 1
+  5 -- 2
+  4 -- 3
+  3 -- 4
+  2 -- 5
+  O(N^N)
+  O(N)
+  										7
+  									/		\
+                    5		6
+  								/	\		/\
+  							3		4		4 	5
+  							/\	/\	/\	/\
+  							1 2 2 3	2 3	3 4
+  								/\
+ 									1	0
+
+  
+
+ 				
+				
+				
