@@ -1,3 +1,5 @@
+package codility;
+
 public class SmallestPositive {
 
     public static void main(String[] args) {
