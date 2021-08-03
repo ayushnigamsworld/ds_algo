@@ -23,11 +23,20 @@ public class TopologicalSorting extends BaseGraph {
         for (int i=0; i<V; i++) {
             mygraph.add(new ArrayList<>());
         }
+//        addDirectedEdge(2, 5, mygraph);
+//        addDirectedEdge(2, 3, mygraph);
+//        addDirectedEdge(5, 3, mygraph);
+//        addDirectedEdge(1, 3, mygraph);
+//        addDirectedEdge(1, 4, mygraph);
+
         addDirectedEdge(2, 5, mygraph);
-        addDirectedEdge(2, 3, mygraph);
-        addDirectedEdge(5, 3, mygraph);
-        addDirectedEdge(1, 3, mygraph);
+        addDirectedEdge(0, 5, mygraph);
+        addDirectedEdge(0, 4, mygraph);
         addDirectedEdge(1, 4, mygraph);
+        addDirectedEdge(3, 2, mygraph);
+        addDirectedEdge(1, 3, mygraph);
+
+
         topologicalSort(mygraph);
     }
 
@@ -38,7 +47,7 @@ public class TopologicalSorting extends BaseGraph {
             }
         }
         Queue<Integer> queue = new LinkedList<>();
-        for (int i=1; i<indegree.length; i++) {
+        for (int i=0; i<indegree.length; i++) {
             if (indegree[i] == 0) {
                 queue.add(i);
             }

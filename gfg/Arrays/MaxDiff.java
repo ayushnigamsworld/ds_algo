@@ -5,8 +5,8 @@ import java.util.Collections;
 public class MaxDiff {
 
     public static void main(String aa[]) {
-        int arr[] = new int[] {34, 8, 10, 3, 2, 80, 30, 33, 1};
-        System.out.println(maxIndexDiff(arr, 9));
+        int arr[] = new int[] {7, 1, 2, 5};
+        System.out.println(maxIndexDiff(arr, 4));
     }
 
     /**

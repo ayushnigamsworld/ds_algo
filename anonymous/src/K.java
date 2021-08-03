@@ -1,10 +1,28 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Stream;
 
 public class K {
 
     public static void main(String[] args) {
-        int count = 0;
+        /*StringBuilder res = new StringBuilder(inputStr);
+
+        int i = 0;
+        while (i + wrapLength < res.length() && (i = res.lastIndexOf(" ", i + wrapLength)) != -1) {
+            res.replace(i, i + 1, "\n");
+        }
+
+        System.out.println(res.toString());*/
+
+//        List<Number> ff = new ArrayList<Long>();
+        /*ArrayList a = new ArrayList(2);
+        a.add(1);
+        a.add(1);
+        a.add(1);
+        System.out.println(a.size());*/
+        /*int count = 0;
         for (long i=110; i<=130; i++) {
             if (isPerfectSquare(i)) {
                 List<Integer> digits = findDigits(i);
@@ -14,7 +32,7 @@ public class K {
                 }
             }
         }
-        System.out.println(count);
+        System.out.println(count);*/
     }
 
     private static boolean isPerfectSquare(long n) {

@@ -24,11 +24,18 @@ public class TopologicalSortDFS extends BaseGraph {
         for (int i=0; i<V; i++) {
             mygraph.add(new ArrayList<>());
         }
-        addDirectedEdge(2, 5, mygraph);
+        /*addDirectedEdge(2, 5, mygraph);
         addDirectedEdge(2, 3, mygraph);
         addDirectedEdge(5, 3, mygraph);
         addDirectedEdge(1, 3, mygraph);
+        addDirectedEdge(1, 4, mygraph);*/
+
+        addDirectedEdge(2, 5, mygraph);
+        addDirectedEdge(0, 5, mygraph);
+        addDirectedEdge(0, 4, mygraph);
         addDirectedEdge(1, 4, mygraph);
+        addDirectedEdge(3, 2, mygraph);
+        addDirectedEdge(1, 3, mygraph);
         for (int i=1; i<V; i++) {
             if (!visited[i]) {
                 topologicalSort(mygraph, i);

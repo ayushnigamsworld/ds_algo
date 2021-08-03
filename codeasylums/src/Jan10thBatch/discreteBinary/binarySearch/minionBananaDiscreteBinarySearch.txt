@@ -1,0 +1,31 @@
+
+int H,ans;
+int l=1,h=1e5;
+while(l <= h){
+	int mid=(l+h)/2;
+	int total=0;
+	for(int i=0;i<n;i++){
+		// basically finding ceil of a[i]/mid;
+		if(a[i]%k==0){
+			total+=a[i]/mid;
+		}else{
+			total+=a[i]/mid +1;
+		}
+	}
+	if(total==H){
+		ans=mid;
+		break;
+	}
+	else if(total>H){
+		l=mid+1;
+	}else{
+		h=mid-1;
+	}
+}
+cout<<ans<<" ";
+
+
+
+// https://www.spoj.com/problems/EKO/
+
+
