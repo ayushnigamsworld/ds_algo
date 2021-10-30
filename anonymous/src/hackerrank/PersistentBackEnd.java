@@ -26,7 +26,7 @@ public class PersistentBackEnd {
         // Create an empty stack of intervals
         Stack<Interval> stack=new Stack<>();
 
-        // sort the intervals in increasing order of start time
+        // search_sort the intervals in increasing order of start time
         Arrays.sort(arr,new Comparator<Interval>(){
             public int compare(Interval i1,Interval i2)
             {

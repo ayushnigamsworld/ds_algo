@@ -1,5 +1,11 @@
 package glider;
 
+import javax.security.auth.Subject;
+import java.security.AccessController;
+import java.security.Permission;
+import java.security.Principal;
+import java.util.Set;
+
 public class Test {
 
     public Test() {
@@ -19,6 +25,13 @@ public class Test {
 
     public static void main(String[] args) {
         new Test();
+        Subject subject = Subject.getSubject(AccessController.getContext());
+        Set<Principal> principalSet = subject.getPrincipals();
+        for (Principal principal : principalSet) {
+            if (principal instanceof Test) {
+
+            }
+        }
     }
 
     private class Bar {

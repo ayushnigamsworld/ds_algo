@@ -1,8 +1,6 @@
 // import jdk.nashorn.internal.objects.annotations.Function;
 package ikm;
 
-
-@Deprecated class MyClass {
+ class  MyClass {
 }
-
 // package ikm;

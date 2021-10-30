@@ -14,7 +14,7 @@ In case you feel, better solution is possible, you are most welcome to raise a P
 
 Here is the list of the topics:
 
--> Arrays
+-> Array
 
 -> Sorting
 

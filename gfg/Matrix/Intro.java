@@ -1,6 +1,6 @@
 package Matrix;
 
-public class Intro {
+public class  Intro {
 
     public static void main(String[] args) {
         intro();

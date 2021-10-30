@@ -6,7 +6,7 @@ import java.util.PriorityQueue;
  * Given an array whose each element will be, given that
  * i = current position of that element, in
  * sorted position in range (i-k, i+k).
- * Need to sort the array now.
+ * Need to search_sort the array now.
  *
  * Soln: Use MinHeap of size K, by maintaining.
  * Not able to do the inplace array changing part, i.e. line no 36 and 40

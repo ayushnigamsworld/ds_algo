@@ -15,7 +15,7 @@ import java.util.List;
  *
  * 1. Find and extract/remove the duplicate elements.: [aa, ac]
  * 2. Original: aa  ab ac ad
- * 3. Form group and sort using original algorithm : [aa ab aa ac ad ac]
+ * 3. Form group and search_sort using original algorithm : [aa ab aa ac ad ac]
  * 4. Inject the duplicate element group to now sorted array: [aa, ac] as sorted by themselves.
  *
  *
@@ -46,7 +46,7 @@ import java.util.List;
  * 11,12,11,22,24 --O(n)
  *
  * 1. Finding the groups of pairs having anything common
- * 2. Sorting using radix sort.
+ * 2. Sorting using radix search_sort.
  *
  *
  * 1. : Each pair : run through loop, list. --> sorted O(n2) boolean visited[] = true
@@ -58,7 +58,7 @@ import java.util.List;
  *    .
  *    O(n)
  *    O(n)
- *    Sorted Arrays: Merging the sorted arrays: O(n).
+ *    Sorted Array: Merging the sorted arrays: O(n).
  *    O(n2) + O(n)
  *
  *

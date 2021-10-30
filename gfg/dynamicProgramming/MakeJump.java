@@ -73,7 +73,7 @@ public class MakeJump {
             }
 
             int[] dp = new int[n];
-            Arrays.fill(dp, Integer.MAX_VALUE);
+            Array.fill(dp, Integer.MAX_VALUE);
             dp[0] = 0;
             for (int i=1; i<n; i++) {
                 for (int j=0; j<i; j++) {
