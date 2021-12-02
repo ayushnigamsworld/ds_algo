@@ -7,7 +7,7 @@ public class KLargest {
 
     public static void main(String[] args) {
         int[] nums = new int[] {3,2,1,5,6,4};
-        int k = 3;
+        int k = 6;
         KLargest kLargest = new KLargest();
         // kLargest.findKthLargest(nums, k);
         kLargest.quickSelect(nums, k);
@@ -31,10 +31,10 @@ public class KLargest {
 
     private int recurse(int[] nums, int low, int high, int k) {
         int p = placingPivot(nums, low, high);
-        if (p == nums.length - k - 1) {
+        if (p == nums.length - k) {
             return nums[p];
         }
-        else if (p < k) {
+        else if (p < (nums.length - k)) {
             return recurse(nums, p+1, high, k);
         }
         return recurse(nums, low, p-1, k);
@@ -55,9 +55,9 @@ public class KLargest {
                 lowerBoundary++;
             }
         }
-        temp = nums[lowerBoundary+1];
-        nums[lowerBoundary+1] = nums[pivot];
+        temp = nums[lowerBoundary];
+        nums[lowerBoundary] = nums[pivot];
         nums[pivot] = temp;
-        return lowerBoundary+1;
+        return lowerBoundary;
     }
 }
