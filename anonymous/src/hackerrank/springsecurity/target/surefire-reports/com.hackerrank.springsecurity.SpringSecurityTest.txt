@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.hackerrank.springsecurity.SpringSecurityTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 16.323 s <<< FAILURE! - in com.hackerrank.springsecurity.SpringSecurityTest
+testAddBookWithStudentCredentials  Time elapsed: 1.423 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<403> but was:<200>
+	at com.hackerrank.springsecurity.SpringSecurityTest.testAddBookWithStudentCredentials(SpringSecurityTest.java:72)
+

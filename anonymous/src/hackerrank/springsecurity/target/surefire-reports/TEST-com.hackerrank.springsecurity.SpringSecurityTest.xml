@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.hackerrank.springsecurity.SpringSecurityTest" time="16.323" tests="7" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\MY STUFFFFF\practice\anonymous\src\hackerrank\springsecurity\target\test-classes;D:\MY STUFFFFF\practice\anonymous\src\hackerrank\springsecurity\target\classes;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.5.0\spring-boot-starter-web-2.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\boot\spring-boot-starter\2.5.0\spring-boot-starter-2.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.5.0\spring-boot-autoconfigure-2.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.5.0\spring-boot-starter-logging-2.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.14.1\log4j-to-slf4j-2.14.1.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\slf4j\jul-to-slf4j\1.7.30\jul-to-slf4j-1.7.30.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.5.0\spring-boot-starter-json-2.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.12.3\jackson-datatype-jdk8-2.12.3.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.3\jackson-datatype-jsr310-2.12.3.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.12.3\jackson-module-parameter-names-2.12.3.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.5.0\spring-boot-starter-tomcat-2.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.46\tomcat-embed-core-9.0.46.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.46\tomcat-embed-el-9.0.46.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.46\tomcat-embed-websocket-9.0.46.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\spring-web\5.3.7\spring-web-5.3.7.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\spring-beans\5.3.7\spring-beans-5.3.7.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\spring-webmvc\5.3.7\spring-webmvc-5.3.7.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\spring-context\5.3.7\spring-context-5.3.7.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\spring-expression\5.3.7\spring-expression-5.3.7.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\boot\spring-boot-starter-security\2.5.0\spring-boot-starter-security-2.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\spring-aop\5.3.7\spring-aop-5.3.7.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\security\spring-security-config\5.5.0\spring-security-config-5.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\security\spring-security-core\5.5.0\spring-security-core-5.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.5.0\kotlin-stdlib-jdk8-1.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.5.0\kotlin-stdlib-1.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.5.0\kotlin-stdlib-common-1.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.5.0\kotlin-stdlib-jdk7-1.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\security\spring-security-web\5.5.0\spring-security-web-5.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.5.0\spring-boot-starter-test-2.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\boot\spring-boot-test\2.5.0\spring-boot-test-2.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.5.0\spring-boot-test-autoconfigure-2.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\com\jayway\jsonpath\json-path\2.5.0\json-path-2.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\assertj\assertj-core\3.19.0\assertj-core-3.19.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.2\junit-jupiter-5.7.2.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.2\junit-jupiter-params-5.7.2.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\mockito\mockito-core\3.9.0\mockito-core-3.9.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\net\bytebuddy\byte-buddy\1.10.22\byte-buddy-1.10.22.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.22\byte-buddy-agent-1.10.22.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\mockito\mockito-junit-jupiter\3.9.0\mockito-junit-jupiter-3.9.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\spring-core\5.3.7\spring-core-5.3.7.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\spring-jcl\5.3.7\spring-jcl-5.3.7.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\spring-test\5.3.7\spring-test-5.3.7.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\xmlunit\xmlunit-core\2.8.2\xmlunit-core-2.8.2.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.5.0\spring-boot-starter-data-jpa-2.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.5.0\spring-boot-starter-aop-2.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.5.0\spring-boot-starter-jdbc-2.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\com\zaxxer\HikariCP\4.0.3\HikariCP-4.0.3.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\spring-jdbc\5.3.7\spring-jdbc-5.3.7.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\jakarta\transaction\jakarta.transaction-api\1.3.3\jakarta.transaction-api-1.3.3.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\jakarta\persistence\jakarta.persistence-api\2.2.3\jakarta.persistence-api-2.2.3.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\hibernate\hibernate-core\5.4.31.Final\hibernate-core-5.4.31.Final.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\jboss\logging\jboss-logging\3.4.1.Final\jboss-logging-3.4.1.Final.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\javassist\javassist\3.27.0-GA\javassist-3.27.0-GA.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\jboss\jandex\2.2.3.Final\jandex-2.2.3.Final.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\dom4j\dom4j\2.1.3\dom4j-2.1.3.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.4\jaxb-runtime-2.3.4.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\glassfish\jaxb\txw2\2.3.4\txw2-2.3.4.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.12\istack-commons-runtime-3.0.12.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\data\spring-data-jpa\2.5.1\spring-data-jpa-2.5.1.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\data\spring-data-commons\2.5.1\spring-data-commons-2.5.1.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\spring-orm\5.3.7\spring-orm-5.3.7.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\spring-tx\5.3.7\spring-tx-5.3.7.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\spring-aspects\5.3.7\spring-aspects-5.3.7.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\json\json\20210307\json-20210307.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\com\h2database\h2\1.4.200\h2-1.4.200.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\ANIGAM~1.N-1\AppData\Local\Temp\surefire9040024512812253123\surefirebooter5359635685287280179.jar C:\Users\anigam.N-19-DE-K2-077W\AppData\Local\Temp\surefire9040024512812253123 2021-10-31T13-17-24_839-jvmRun1 surefire1097565563413263735tmp surefire_06438333277721206037tmp"/>
+    <property name="surefire.test.class.path" value="D:\MY STUFFFFF\practice\anonymous\src\hackerrank\springsecurity\target\test-classes;D:\MY STUFFFFF\practice\anonymous\src\hackerrank\springsecurity\target\classes;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.5.0\spring-boot-starter-web-2.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\boot\spring-boot-starter\2.5.0\spring-boot-starter-2.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\boot\spring-boot\2.5.0\spring-boot-2.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.5.0\spring-boot-autoconfigure-2.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.5.0\spring-boot-starter-logging-2.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.14.1\log4j-to-slf4j-2.14.1.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\slf4j\jul-to-slf4j\1.7.30\jul-to-slf4j-1.7.30.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.5.0\spring-boot-starter-json-2.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.12.3\jackson-datatype-jdk8-2.12.3.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.3\jackson-datatype-jsr310-2.12.3.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.12.3\jackson-module-parameter-names-2.12.3.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.5.0\spring-boot-starter-tomcat-2.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.46\tomcat-embed-core-9.0.46.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.46\tomcat-embed-el-9.0.46.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.46\tomcat-embed-websocket-9.0.46.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\spring-web\5.3.7\spring-web-5.3.7.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\spring-beans\5.3.7\spring-beans-5.3.7.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\spring-webmvc\5.3.7\spring-webmvc-5.3.7.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\spring-context\5.3.7\spring-context-5.3.7.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\spring-expression\5.3.7\spring-expression-5.3.7.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\boot\spring-boot-starter-security\2.5.0\spring-boot-starter-security-2.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\spring-aop\5.3.7\spring-aop-5.3.7.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\security\spring-security-config\5.5.0\spring-security-config-5.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\security\spring-security-core\5.5.0\spring-security-core-5.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.5.0\kotlin-stdlib-jdk8-1.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.5.0\kotlin-stdlib-1.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.5.0\kotlin-stdlib-common-1.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.5.0\kotlin-stdlib-jdk7-1.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\security\spring-security-web\5.5.0\spring-security-web-5.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.5.0\spring-boot-starter-test-2.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\boot\spring-boot-test\2.5.0\spring-boot-test-2.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.5.0\spring-boot-test-autoconfigure-2.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\com\jayway\jsonpath\json-path\2.5.0\json-path-2.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\assertj\assertj-core\3.19.0\assertj-core-3.19.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.2\junit-jupiter-5.7.2.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.2\junit-jupiter-params-5.7.2.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\mockito\mockito-core\3.9.0\mockito-core-3.9.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\net\bytebuddy\byte-buddy\1.10.22\byte-buddy-1.10.22.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.22\byte-buddy-agent-1.10.22.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\mockito\mockito-junit-jupiter\3.9.0\mockito-junit-jupiter-3.9.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\spring-core\5.3.7\spring-core-5.3.7.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\spring-jcl\5.3.7\spring-jcl-5.3.7.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\spring-test\5.3.7\spring-test-5.3.7.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\xmlunit\xmlunit-core\2.8.2\xmlunit-core-2.8.2.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.5.0\spring-boot-starter-data-jpa-2.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.5.0\spring-boot-starter-aop-2.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.5.0\spring-boot-starter-jdbc-2.5.0.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\com\zaxxer\HikariCP\4.0.3\HikariCP-4.0.3.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\spring-jdbc\5.3.7\spring-jdbc-5.3.7.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\jakarta\transaction\jakarta.transaction-api\1.3.3\jakarta.transaction-api-1.3.3.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\jakarta\persistence\jakarta.persistence-api\2.2.3\jakarta.persistence-api-2.2.3.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\hibernate\hibernate-core\5.4.31.Final\hibernate-core-5.4.31.Final.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\jboss\logging\jboss-logging\3.4.1.Final\jboss-logging-3.4.1.Final.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\javassist\javassist\3.27.0-GA\javassist-3.27.0-GA.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\jboss\jandex\2.2.3.Final\jandex-2.2.3.Final.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\dom4j\dom4j\2.1.3\dom4j-2.1.3.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.4\jaxb-runtime-2.3.4.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\glassfish\jaxb\txw2\2.3.4\txw2-2.3.4.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.12\istack-commons-runtime-3.0.12.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\data\spring-data-jpa\2.5.1\spring-data-jpa-2.5.1.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\data\spring-data-commons\2.5.1\spring-data-commons-2.5.1.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\spring-orm\5.3.7\spring-orm-5.3.7.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\spring-tx\5.3.7\spring-tx-5.3.7.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\springframework\spring-aspects\5.3.7\spring-aspects-5.3.7.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\json\json\20210307\json-20210307.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\com\h2database\h2\1.4.200\h2-1.4.200.jar;C:\Users\anigam.N-19-DE-K2-077W\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\anigam.N-19-DE-K2-077W"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_161\jre"/>
+    <property name="basedir" value="D:\MY STUFFFFF\practice\anonymous\src\hackerrank\springsecurity"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\ANIGAM~1.N-1\AppData\Local\Temp\surefire9040024512812253123\surefirebooter5359635685287280179.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="user.name" value="anigam"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\anigam.N-19-DE-K2-077W\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ANIGAM~1.N-1\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2017.3"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="user.dir" value="D:\MY STUFFFFF\practice\anonymous\src\hackerrank\springsecurity"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python27\;C:\Python27\Scripts;C:\Program Files\Python36\Scripts\;C:\Python36;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseGit\bin;C:\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin;C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\PuTTY\;C:\Redis-x64-3.0.504\redis-cli.exe;C:\Program Files (x86)\CrSSL\bin;C:\PostgreSQL\pg96\bin;C:\Program Files\TortoiseSVN\bin;C:\Android;C:\Program Files\Python36\python.exe;D:\softwares\sonar-scanner-cli-4.2.0.1873-windows\sonar-scanner-4.2.0.1873-windows\bin;C:\Users\Ayush Nigam\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;%JMETER_HOME%\bin;%JAVA_HOME%\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\anigam.N-19-DE-K2-077W\AppData\Roaming\npm\node_modules\grunt-cli\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\anigam.N-19-DE-K2-077W\AppData\Local\Microsoft\WindowsApps;C:\Users\anigam.N-19-DE-K2-077W\AppData\Roaming\npm;C:\Users\anigam.N-19-DE-K2-077W\AppData\Roaming\npm\node_modules\grunt-cli\bin;C:\Users\anigam.N-19-DE-K2-077W\AppData\Roaming\npm\node_modules\@angular\cli\bin;C:\Users\anigam.N-19-DE-K2-077W\AppData\Local\GitHubDesktop\bin;C:\Users\anigam.N-19-DE-K2-077W\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testAddReaderToCourseWithIncorrectCredentials" classname="com.hackerrank.springsecurity.SpringSecurityTest" time="1.905"/>
+  <testcase name="testGetBookDetailsWithNoCredentials" classname="com.hackerrank.springsecurity.SpringSecurityTest" time="1.371"/>
+  <testcase name="testAddBookWithStudentCredentials" classname="com.hackerrank.springsecurity.SpringSecurityTest" time="1.423">
+    <failure message="Status expected:&lt;403&gt; but was:&lt;200&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<403> but was:<200>
+	at com.hackerrank.springsecurity.SpringSecurityTest.testAddBookWithStudentCredentials(SpringSecurityTest.java:72)
+]]></failure>
+    <system-out><![CDATA[2021-10-31 13:17:35.889  INFO 30460 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-31 13:17:35.890  INFO 30460 --- [           main] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-10-31 13:17:35.891  INFO 30460 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2021-10-31 13:17:35.894  INFO 30460 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.0)
+
+2021-10-31 13:17:35.920  WARN 30460 --- [           main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/anigam.N-19-DE-K2-077W/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/anigam.N-19-DE-K2-077W/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2021-10-31 13:17:35.922  INFO 30460 --- [           main] c.h.springsecurity.SpringSecurityTest    : Starting SpringSecurityTest using Java 1.8.0_161 on N-19-DE-K2-077W with PID 30460 (started by anigam in D:\MY STUFFFFF\practice\anonymous\src\hackerrank\springsecurity)
+2021-10-31 13:17:35.923  INFO 30460 --- [           main] c.h.springsecurity.SpringSecurityTest    : No active profile set, falling back to default profiles: default
+2021-10-31 13:17:36.089  INFO 30460 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-10-31 13:17:36.100  INFO 30460 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
+2021-10-31 13:17:36.226  INFO 30460 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2021-10-31 13:17:36.229  INFO 30460 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2021-10-31 13:17:36.243  INFO 30460 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-31 13:17:36.248  INFO 30460 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-10-31 13:17:36.271  INFO 30460 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-31 13:17:36.271  INFO 30460 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-31 13:17:36.314  WARN 30460 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-31 13:17:36.344  INFO 30460 --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 8bccfc7e-35fe-4fa5-8e49-0abe72ae282d
+
+2021-10-31 13:17:36.587 DEBUG 30460 --- [           main] edFilterInvocationSecurityMetadataSource : Adding web access control expression [permitAll] for Ant [pattern='/book']
+2021-10-31 13:17:36.587 DEBUG 30460 --- [           main] edFilterInvocationSecurityMetadataSource : Adding web access control expression [authenticated] for any request
+2021-10-31 13:17:36.600  INFO 30460 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7d2baa56, org.springframework.security.web.context.SecurityContextPersistenceFilter@22c0344e, org.springframework.security.web.header.HeaderWriterFilter@c31419f, org.springframework.security.web.authentication.logout.LogoutFilter@7a13ad55, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7fcfe065, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7267006e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@745c8a04, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6b4a2887, org.springframework.security.web.session.SessionManagementFilter@43dddfdd, org.springframework.security.web.access.ExceptionTranslationFilter@210e2f2f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5773f83d]
+2021-10-31 13:17:36.600  WARN 30460 --- [           main] o.s.s.c.a.web.builders.WebSecurity       : 
+
+********************************************************************
+**********        Security debugging is enabled.       *************
+**********    This may include sensitive information.  *************
+**********      Do not use in a production system!     *************
+********************************************************************
+
+
+2021-10-31 13:17:37.056  INFO 30460 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-10-31 13:17:37.057  INFO 30460 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-10-31 13:17:37.057  INFO 30460 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2021-10-31 13:17:37.063  INFO 30460 --- [           main] c.h.springsecurity.SpringSecurityTest    : Started SpringSecurityTest in 1.167 seconds (JVM running for 11.345)
+2021-10-31 13:17:37.064  INFO 30460 --- [           main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-10-31 13:17:37.064  INFO 30460 --- [           main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+Inside contextLoads
+2021-10-31 13:17:37.077  INFO 30460 --- [           main] Spring Security Debugger                 : 
+
+************************************************************
+
+Request received for POST '/book':
+
+org.springframework.mock.web.MockHttpServletRequest@29ae2517
+
+servletPath:
+pathInfo:/book
+headers: 
+Content-Type: application/json;charset=UTF-8
+Authorization: Basic am9obl9kb2U6c3R1ZGVudF9wYXNzd29yZA==
+Content-Length: 105
+
+
+Security filter chain: [
+  WebAsyncManagerIntegrationFilter
+  SecurityContextPersistenceFilter
+  HeaderWriterFilter
+  LogoutFilter
+  BasicAuthenticationFilter
+  RequestCacheAwareFilter
+  SecurityContextHolderAwareRequestFilter
+  AnonymousAuthenticationFilter
+  SessionManagementFilter
+  ExceptionTranslationFilter
+  FilterSecurityInterceptor
+]
+
+
+************************************************************
+
+
+2021-10-31 13:17:37.077 DEBUG 30460 --- [           main] o.s.security.web.FilterChainProxy        : Securing POST /book
+2021-10-31 13:17:37.077 DEBUG 30460 --- [           main] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2021-10-31 13:17:37.237 DEBUG 30460 --- [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2021-10-31 13:17:37.238 DEBUG 30460 --- [           main] o.s.s.w.a.www.BasicAuthenticationFilter  : Set SecurityContextHolder to UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=john_doe, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, credentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_READER_USER]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=127.0.0.1, SessionId=null], Granted Authorities=[ROLE_READER_USER]]
+2021-10-31 13:17:37.240  INFO 30460 --- [           main] Spring Security Debugger                 : 
+
+************************************************************
+
+New HTTP session created: 1
+
+Call stack: 
+
+	at org.springframework.security.web.debug.Logger.info(Logger.java:46)
+	at org.springframework.security.web.debug.DebugFilter$DebugRequestWrapper.getSession(DebugFilter.java:167)
+	at org.springframework.security.web.debug.DebugFilter$DebugRequestWrapper.getSession(DebugFilter.java:177)
+	at javax.servlet.http.HttpServletRequestWrapper.getSession(HttpServletRequestWrapper.java:244)
+	at org.springframework.security.web.context.HttpSessionSecurityContextRepository$SaveToSessionResponseWrapper.createNewSessionIfAllowed(HttpSessionSecurityContextRepository.java:398)
+	at org.springframework.security.web.context.HttpSessionSecurityContextRepository$SaveToSessionResponseWrapper.saveContext(HttpSessionSecurityContextRepository.java:351)
+	at org.springframework.security.web.context.HttpSessionSecurityContextRepository.saveContext(HttpSessionSecurityContextRepository.java:139)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:109)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:178)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.security.web.debug.DebugFilter.invokeWithWrappedRequest(DebugFilter.java:90)
+	at org.springframework.security.web.debug.DebugFilter.doFilter(DebugFilter.java:78)
+	at org.springframework.security.web.debug.DebugFilter.doFilter(DebugFilter.java:67)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:134)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:134)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:134)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:134)
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:183)
+	at com.hackerrank.springsecurity.SpringSecurityTest.testAddBookWithStudentCredentials(SpringSecurityTest.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:688)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:210)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:206)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+
+************************************************************
+
+
+2021-10-31 13:17:37.241 DEBUG 30460 --- [           main] w.c.HttpSessionSecurityContextRepository : Created HttpSession as SecurityContext is non-default
+2021-10-31 13:17:37.241 DEBUG 30460 --- [           main] w.c.HttpSessionSecurityContextRepository : Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=john_doe, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, credentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_READER_USER]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=127.0.0.1, SessionId=null], Granted Authorities=[ROLE_READER_USER]]] to HttpSession [org.springframework.mock.web.MockHttpSession@7ea8224b]
+2021-10-31 13:17:37.242 DEBUG 30460 --- [           main] o.s.s.w.a.i.FilterSecurityInterceptor    : Authorized filter invocation [POST /book] with attributes [permitAll]
+2021-10-31 13:17:37.242 DEBUG 30460 --- [           main] o.s.security.web.FilterChainProxy        : Secured POST /book
+2021-10-31 13:17:37.299 DEBUG 30460 --- [           main] w.c.HttpSessionSecurityContextRepository : Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=john_doe, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, credentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_READER_USER]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=127.0.0.1, SessionId=null], Granted Authorities=[ROLE_READER_USER]]] to HttpSession [org.springframework.mock.web.MockHttpSession@7ea8224b]
+2021-10-31 13:17:37.300 DEBUG 30460 --- [           main] w.c.HttpSessionSecurityContextRepository : Stored SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=john_doe, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, credentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_READER_USER]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=127.0.0.1, SessionId=null], Granted Authorities=[ROLE_READER_USER]]] to HttpSession [org.springframework.mock.web.MockHttpSession@7ea8224b]
+2021-10-31 13:17:37.300 DEBUG 30460 --- [           main] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /book
+       Parameters = {}
+          Headers = [Content-Type:"application/json;charset=UTF-8", Authorization:"Basic am9obl9kb2U6c3R1ZGVudF9wYXNzd29yZA==", Content-Length:"105"]
+             Body = {"bookId":123,"bookName":"Basic Mathematics","nameOfAuthor":"Tom","tagNumber":"22B","prerequisites":null}
+    Session Attrs = {SPRING_SECURITY_CONTEXT=SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=john_doe, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, credentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_READER_USER]], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=127.0.0.1, SessionId=null], Granted Authorities=[ROLE_READER_USER]]]}
+
+Handler:
+             Type = com.hackerrank.springsecurity.controller.CourseController
+           Method = com.hackerrank.springsecurity.controller.CourseController#addCourse(Book)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"application/json", X-Content-Type-Options:"nosniff", X-XSS-Protection:"1; mode=block", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", X-Frame-Options:"DENY"]
+     Content type = application/json
+             Body = {"statusCode":200,"message":"Added"}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  </testcase>
+  <testcase name="testAddReaderToCourseWithStudentCredentials" classname="com.hackerrank.springsecurity.SpringSecurityTest" time="1.349"/>
+  <testcase name="testAddBookWithIncorrectCredentials" classname="com.hackerrank.springsecurity.SpringSecurityTest" time="1.538"/>
+  <testcase name="testAddReaderToCourseWithAdminCredentials" classname="com.hackerrank.springsecurity.SpringSecurityTest" time="1.37"/>
+  <testcase name="testAddBookWithAdminCredentials" classname="com.hackerrank.springsecurity.SpringSecurityTest" time="1.278"/>
+</testsuite>

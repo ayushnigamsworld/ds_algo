@@ -1,0 +1,9 @@
+com\hackerrank\springsecurity\repository\UserRepository.class
+com\hackerrank\springsecurity\ChallengeApplication.class
+com\hackerrank\springsecurity\controller\CourseController.class
+com\hackerrank\springsecurity\dto\Book.class
+com\hackerrank\springsecurity\dto\Reader.class
+com\hackerrank\springsecurity\dto\User.class
+com\hackerrank\springsecurity\dto\ApiResponse.class
+com\hackerrank\springsecurity\service\UserDetailsServiceImp.class
+com\hackerrank\springsecurity\config\WebSecurityConfig.class
