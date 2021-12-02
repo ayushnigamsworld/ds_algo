@@ -1,4 +1,5 @@
 package parentChild;
 
-public interface CommonInterface {
+public interface CommonInterface<T> {
+    public T mapRow();
 }
