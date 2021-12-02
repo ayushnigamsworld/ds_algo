@@ -1,4 +1,4 @@
-package easy;
+package easy.dp;
 
 public class BuySellStocks {
 
