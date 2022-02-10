@@ -1,0 +1,8 @@
+
+bsquid:S1126"AReplace this if-then-else statement by a single return statement.(¤«»·ùÿÿÿÿ8ÄÑÎ.
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(şÃè,8ó¿‡ÑÎ.
+Z"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(îÇËúÿÿÿÿ8»¶ôĞÎ.
+ssquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(¨úÌÍøÿÿÿÿ8ª…şĞÎ.
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ëşã‡8­şÑÎ.
+qsquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ş¯¥ıÿÿÿÿ8±ÔíĞÎ.

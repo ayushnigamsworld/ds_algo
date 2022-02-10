@@ -1,0 +1,13 @@
+
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(–¥ƒÎüÿÿÿÿ8‘ûƒÉ.
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šô¦ó8‘ûƒÉ.
+Vsquid:S1197"8Move the array designator from the variable to the type.(‚ÑÚÜ8‘ûƒÉ.
+@squid:S1659""Declare "sum2" on a separate line.(Ùãû½8‘ûƒÉ.
+Vsquid:S1197"8Move the array designator from the variable to the type.(šô¦ó8‘ûƒÉ.
+usquid:S00117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½í—”ÿÿÿÿÿ8‘ûƒÉ.
+[squid:S1197
+"8Move the array designator from the variable to the type.(½í—”ÿÿÿÿÿ8‘ûƒÉ.
+Bsquid:S1659"Declare "j" on a separate line.(á”æåşÿÿÿÿ8‘ûƒÉ.
+Vsquid:S1197"8Move the array designator from the variable to the type.(‚ÑÚÜ8‘ûƒÉ.

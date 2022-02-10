@@ -1,0 +1,9 @@
+
+Xsquid:UnusedPrivateMethod
+"'Remove this unused private "ss" method.(Ş«×¢ûÿÿÿÿ8ß–ËÅ’/
+Rsquid:S1854"5Remove this useless assignment to local variable "s".(ÙáÍk8ÁÎûı/
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ8ÁÎûı/
+1squid:S1220""Move this file to a named package.
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(÷Ÿ¦¬8ß–ËÅ’/
+[squid:S1226">Introduce a new variable instead of reusing the parameter "s".(ÙáÍk8ÁÎûı/

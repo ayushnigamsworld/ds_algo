@@ -1,0 +1,15 @@
+
+[squid:S1197"8Move the array designator from the variable to the type.(Ÿ‰×›ÿÿÿÿÿ8Ş”…‹Ë.
+Gsquid:S1481")Remove this unused "inp3" local variable.(Ä„„³8ÒıÛ¨Ë.
+Vsquid:S1854"8Remove this useless assignment to local variable "inp3".(Ä„„³8ÒıÛ¨Ë.
+[squid:S1197$"8Move the array designator from the variable to the type.(®¦¿™ıÿÿÿÿ8à´÷ŒË.
+Zsquid:S1854"7Remove this useless assignment to local variable "inp".(ø‹ç¼şÿÿÿÿ8·¢Ô¨Ë.
+Vsquid:S1197D"8Move the array designator from the variable to the type.(ñ‡’8€›÷¨Ë.
+Ksquid:S1481"(Remove this unused "inp" local variable.(ø‹ç¼şÿÿÿÿ8·¢Ô¨Ë.
+xsquid:UnusedPrivateMethod"GRemove this unused private "placeNumberAtCorrectPositionDhruvs" method.(Ÿ‰×›ÿÿÿÿÿ8šĞ÷¨Ë.
+nsquid:CommentedOutCodeLine "<This block of commented-out lines of code should be removed.(ª…·şÿÿÿÿ8ªÉÌ¥Ë.
+Vsquid:S11976"8Move the array designator from the variable to the type.(ìÚ¨‰8£êå¨Ë.
+vsquid:UnusedPrivateMethod$"ERemove this unused private "placeNumberAtCorrectPositionMine" method.(®¦¿™ıÿÿÿÿ8Ñ¹×¨Ë.
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(æ¨¤šøÿÿÿÿ8ñ’İ¨Ë.
+[squid:S1197N"8Move the array designator from the variable to the type.(‰ĞŸÏùÿÿÿÿ8€›÷¨Ë.

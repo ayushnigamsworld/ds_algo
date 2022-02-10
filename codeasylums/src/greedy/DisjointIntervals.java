@@ -58,7 +58,7 @@ public class DisjointIntervals {
        stringBuilder.replace(2, 7, "BUFFER");
        stringBuilder.delete(2,4);
        String s = stringBuilder.substring(1,5);
-         System.out.println(s;
+         // System.out.println(s;
 
     }
 }

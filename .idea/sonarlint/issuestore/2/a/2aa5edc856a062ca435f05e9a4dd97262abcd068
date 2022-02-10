@@ -1,0 +1,10 @@
+
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(˜ÔºÑùÿÿÿÿ
+Csquid:S1444"'Make this "public static V" field final(Ã€°Íşÿÿÿÿ
+Lsquid:S1444"5Make this "public static weightedAdjList" field final(ê„ñ
+†"squid:ClassVariableVisibilityCheck"SMake visited a static final constant or non-public and provide accessors if needed.(Ñ£Äúÿÿÿÿ
+Isquid:S1444"-Make this "public static visited" field final(Ñ£Äúÿÿÿÿ
+Ssquid:UselessImportCheck"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ
+hsquid:S3008"LRename this field "V" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã€°Íşÿÿÿÿ
+‰"squid:ClassVariableVisibilityCheck"[Make weightedAdjList a static final constant or non-public and provide accessors if needed.(ê„ñ
+€"squid:ClassVariableVisibilityCheck"MMake V a static final constant or non-public and provide accessors if needed.(Ã€°Íşÿÿÿÿ

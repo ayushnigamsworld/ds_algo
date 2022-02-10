@@ -1,0 +1,8 @@
+
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(æ–İ€ÿÿÿÿÿ8œ™û‘/
+_squid:UselessImportCheck"4Remove this unused import 'java.lang.reflect.Field'.(„‡Áú8¹ÑÏ’/
+[squid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8òªÇì.
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ä©‚šÿÿÿÿÿ8Æû‘/
+bsquid:UselessImportCheck"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8òªÇì.

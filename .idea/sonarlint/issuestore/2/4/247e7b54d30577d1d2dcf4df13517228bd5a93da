@@ -1,0 +1,7 @@
+
+Ÿsquid:S1186	"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Çµí‘8¢”áËÏ.
+\squid:S1155">Use isEmpty() to check whether the collection is empty or not.(ËÁü8£¥åËÏ.
+ssquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(û›şöıÿÿÿÿ8±¡âËÏ.
+psquid:UnusedPrivateMethod"?Remove this unused private "findNearestSmallestForEach" method.(“¼µûÿÿÿÿ8¢”áËÏ.
+qsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(óéô.
+[squid:S1197"8Move the array designator from the variable to the type.(“¼µûÿÿÿÿ8¢”áËÏ.

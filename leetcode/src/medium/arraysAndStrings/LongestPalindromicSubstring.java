@@ -1,4 +1,4 @@
-package medium;
+package medium.arraysAndStrings;
 
 public class LongestPalindromicSubstring {
 

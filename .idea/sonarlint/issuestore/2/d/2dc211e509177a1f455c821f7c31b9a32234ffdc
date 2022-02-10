@@ -1,0 +1,16 @@
+
+psquid:S3776
+"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(Çµí‘8È£¿ó.
+bsquid:S2184'"ECast one of the operands of this subtraction operation to a "double".(İ¯“8±æÅêó.
+[
+squid:S1069"9Replace this use of System.out or System.err by a logger.(¡ò†şÿÿÿÿ8öİëó.
+[
+squid:S106A"9Replace this use of System.out or System.err by a logger.(ìß´÷øÿÿÿÿ8ïÑêó.
+asquid:S11558">Use isEmpty() to check whether the collection is empty or not.(•µ§¿şÿÿÿÿ8öİëó.
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(¡ò†şÿÿÿÿ8Ê†Õêó.
+{
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(Ó¹¶şÿÿÿÿ8±æÅêó.
+[squid:S1197<"8Move the array designator from the variable to the type.(‡Ôˆ“øÿÿÿÿ8ÏİÏêó.
+[squid:S1197"8Move the array designator from the variable to the type.(æ•–¸ûÿÿÿÿ8÷±Ãêó.
+Qsquid:S1481"3Remove this unused "countDownLatch" local variable.(öáŸ8éÌÉ„/

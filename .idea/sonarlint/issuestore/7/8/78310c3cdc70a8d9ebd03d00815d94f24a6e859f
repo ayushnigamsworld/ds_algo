@@ -1,0 +1,22 @@
+
+[
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(œıúàüÿÿÿÿ8û…îúô.
+Tsquid:S1854"6Remove this useless assignment to local variable "ll".(Äİì8ÉÄ˜ûô.
+Vsquid:S1197"8Move the array designator from the variable to the type.(‹àóÊ8˜‘ëúô.
+[squid:S1197"8Move the array designator from the variable to the type.(á¯á™ùÿÿÿÿ8Øâúô.
+Zsquid:S1854"<Remove this useless assignment to local variable "indegree".(‹àóÊ8˜‘ëúô.
+Ksquid:S1481"-Remove this unused "indegree" local variable.(‹àóÊ8˜‘ëúô.
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ñôÊÕ8®ã—ûô.
+1squid:S1220""Move this file to a named package.
+Msquid:S1481<"*Remove this unused "value" local variable.(—Ñğÿùÿÿÿÿ8…ÆŸûô.
+Usquid:S1854;"7Remove this useless assignment to local variable "key".(©¾…™8…ÆŸûô.
+Fsquid:S1481;"(Remove this unused "key" local variable.(©¾…™8…ÆŸûô.
+Esquid:S1481"'Remove this unused "ll" local variable.(Äİì8ÉÄ˜ûô.
+[
+squid:S106	"9Replace this use of System.out or System.err by a logger.(ğ¾äËÿÿÿÿÿ8ŞÖìúô.
+\squid:S1854<"9Remove this useless assignment to local variable "value".(—Ñğÿùÿÿÿÿ8…ÆŸûô.
+Esquid:S21895""Add an end condition to this loop.(ƒ…ÎÙıÿÿÿÿ8®—‹Ëõ.
+Zsquid:S25895"7Remove this expression which always evaluates to "true"(ƒ…ÎÙıÿÿÿÿ8®—‹Ëõ.
+V
+squid:S1067"9Replace this use of System.out or System.err by a logger.(¦‰Œñ8®—‹Ëõ.

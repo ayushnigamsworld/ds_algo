@@ -1,0 +1,11 @@
+
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»åüêüÿÿÿÿ8ü¯¦‚Í.
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ã“ïš8£ÒÎ‚Í.
+esquid:S2259"G"NullPointerException" will be thrown when invoking method "reverse()".(¬»8ü¯¦‚Í.
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»åüêüÿÿÿÿ8ü¯¦‚Í.
+asquid:S22592"CA "NullPointerException" could be thrown; "start" is nullable here.(‹ ı8‰ÊÄ–Í.
+usquid:S00117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×Ô’­øÿÿÿÿ8‰ÊÄ–Í.
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒöÁÛ8ü¯¦‚Í.
+squid:S14883"^Immediately return this expression instead of assigning it to the temporary variable "result".(‚è‡¾ûÿÿÿÿ8‰ÊÄ–Í.
+asquid:S2259"CA "NullPointerException" could be thrown; "start" is nullable here.(ƒà¹Ã8ÅìÈ‚Í.
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»åüêüÿÿÿÿ8ü¯¦‚Í.

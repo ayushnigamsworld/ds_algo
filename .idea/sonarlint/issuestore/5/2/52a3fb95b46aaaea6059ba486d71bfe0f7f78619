@@ -1,0 +1,8 @@
+
+[
+squid:S106	"9Replace this use of System.out or System.err by a logger.(æ¨¤šøÿÿÿÿ8íÑÖÌ.
+[squid:S1197"8Move the array designator from the variable to the type.(ËÑëûÿÿÿÿ8î×ºáË.
+[squid:S1197"8Move the array designator from the variable to the type.(ÀŒúŠüÿÿÿÿ8”î¸âË.
+[squid:S1197"8Move the array designator from the variable to the type.(÷èŠ„şÿÿÿÿ8”î¸âË.
+Vsquid:S1197"8Move the array designator from the variable to the type.(ÃÆÍÖ8¥±Ø®Ì.
+Vsquid:S1197"8Move the array designator from the variable to the type.(ˆÊà¼8”î¸âË.

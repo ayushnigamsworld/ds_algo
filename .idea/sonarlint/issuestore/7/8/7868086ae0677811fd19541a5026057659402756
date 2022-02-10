@@ -1,0 +1,9 @@
+
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ü©Ãìøÿÿÿÿ
+Wsquid:UselessImportCheck".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ
+T
+squid:S106#"9Replace this use of System.out or System.err by a logger.(¸šñÙüÿÿÿÿ
+Wsquid:UnusedPrivateMethodE"2Remove this unused private "burnLeafNaive" method.(³ÍÙ¸
+dsquid:UnusedPrivateMethodg"?Remove this unused private "find13AncestorWithPosition" method.(‰ÌÜÌ
+gsquid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(¾¿ŠÑüÿÿÿÿ
+bsquid:CommentedOutCodeLineo"<This block of commented-out lines of code should be removed.(‘ç²ê

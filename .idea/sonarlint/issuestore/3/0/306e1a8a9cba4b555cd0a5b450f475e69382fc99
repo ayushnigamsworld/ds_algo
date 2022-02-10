@@ -1,0 +1,10 @@
+
+Vsquid:S1197"8Move the array designator from the variable to the type.(‘λβά8βλυω‚/
+Dsquid:S1659"&Declare "localMax" on a separate line.(ƒό†8†ψ€ϊ‚/
+Lsquid:S1481")Remove this unused "size" local variable.(ά“³ωÿÿÿÿ8—ψω‚/
+[squid:S1854"8Remove this useless assignment to local variable "size".(ά“³ωÿÿÿÿ8—ψω‚/
+Vsquid:S1197"8Move the array designator from the variable to the type.(πϊέ8‡…ρω‚/
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ΓΎόÿÿÿÿ8ωω‚/
+Bsquid:S1659"Declare "j" on a separate line.(ΊΠ‚δόÿÿÿÿ8‡…ρω‚/
+1squid:S1220""Move this file to a named package.

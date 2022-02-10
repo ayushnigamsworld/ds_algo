@@ -1,0 +1,7 @@
+
+Xsquid:S1854"5Remove this useless assignment to local variable "c".(íªá¨ùÿÿÿÿ8åˆÝÝƒ/
+Vsquid:S1197"8Move the array designator from the variable to the type.(¨¼£ó8ÀãÞÝƒ/
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ß¥òƒüÿÿÿÿ8ÀãÞÝƒ/
+Dsquid:S1481	"&Remove this unused "c" local variable.(»ç»“8åˆÝÝƒ/
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(—Åùáþÿÿÿÿ8åˆÝÝƒ/

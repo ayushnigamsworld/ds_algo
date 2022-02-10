@@ -1,0 +1,6 @@
+
+ssquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ŒÛÖÁıÿÿÿÿ8…‡ÉĞ.
+Osquid:S1068
+",Remove this unused "capacity" private field.(Š¢ Àÿÿÿÿÿ8ó˜ÉĞ.
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(·Şºƒøÿÿÿÿ
+nsquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ùó¢ü8ÉâÈĞ.

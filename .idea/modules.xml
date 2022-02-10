@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DS_ALGO_practice.iml" filepath="$PROJECT_DIR$/DS_ALGO_practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LLD/LLD.iml" filepath="$PROJECT_DIR$/LLD/LLD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/acko/acko.iml" filepath="$PROJECT_DIR$/acko/acko.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algoexperts/algoexperts.iml" filepath="$PROJECT_DIR$/algoexperts/algoexperts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/anonymous/anonymous.iml" filepath="$PROJECT_DIR$/anonymous/anonymous.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codeasylums/codeasylums.iml" filepath="$PROJECT_DIR$/codeasylums/codeasylums.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coreJava/coreJava.iml" filepath="$PROJECT_DIR$/coreJava/coreJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/educativeIO/educativeIO.iml" filepath="$PROJECT_DIR$/educativeIO/educativeIO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flipkart/flipkart.iml" filepath="$PROJECT_DIR$/flipkart/flipkart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leetcode/leetcode.iml" filepath="$PROJECT_DIR$/leetcode/leetcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multilevelcache/multilevelcache.iml" filepath="$PROJECT_DIR$/multilevelcache/multilevelcache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/squad/squad.iml" filepath="$PROJECT_DIR$/squad/squad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LLD/zz.iml" filepath="$PROJECT_DIR$/LLD/zz.iml" />
+    </modules>
+  </component>
+</project>

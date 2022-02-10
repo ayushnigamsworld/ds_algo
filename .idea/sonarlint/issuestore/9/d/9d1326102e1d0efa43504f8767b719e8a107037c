@@ -1,0 +1,8 @@
+
+[
+squid:S106/"9Replace this use of System.out or System.err by a logger.(ζ¨¤ψÿÿÿÿ8τσΣρτ.
+Dsquid:S14810"&Remove this unused "p" local variable.(³ζ­ό8φΎδρτ.
+Ssquid:S18540"5Remove this useless assignment to local variable "n".(³ζ­ό8φΎδρτ.
+Ssquid:S18540"5Remove this useless assignment to local variable "p".(³ζ­ό8φΎδρτ.
+Dsquid:S14810"&Remove this unused "n" local variable.(³ζ­ό8φΎδρτ.
+=squid:S16590"Declare "p" on a separate line.(³ζ­ό8φΎδρτ.

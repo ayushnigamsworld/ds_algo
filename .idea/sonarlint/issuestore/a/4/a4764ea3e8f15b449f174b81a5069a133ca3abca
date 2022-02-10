@@ -1,0 +1,11 @@
+
+V
+squid:S106>"9Replace this use of System.out or System.err by a logger.(µ†›†8’˜Ãùó.
+[
+squid:S106B"9Replace this use of System.out or System.err by a logger.(éÚÔûÿÿÿÿ8’˜Ãùó.
+Ksquid:S1604"(Make this anonymous inner class a lambda(Ş¾‹¦üÿÿÿÿ8ÅöÄùó.
+ssquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(íÒèÃúÿÿÿÿ8¶ÁÃùó.
+Vsquid:S1197
+"8Move the array designator from the variable to the type.(Ø¯û8µØÆùó.
+Vsquid:S1197"8Move the array designator from the variable to the type.(ÂóÆù8’˜Ãùó.
+Dsquid:S1659H"!Declare "end" on a separate line.(ÍôÁÑıÿÿÿÿ8‚¶Áùó.

@@ -1,0 +1,6 @@
+
+Dsquid:S1481!"&Remove this unused "i" local variable.(˜‡¾Ÿ8Å‡Ï„É.
+Ssquid:S1854!"5Remove this useless assignment to local variable "i".(˜‡¾Ÿ8Å‡Ï„É.
+Dsquid:S1659-"!Declare "end" on a separate line.(Û‚ÌÎøÿÿÿÿ8ÍËò„É.
+isquid:CommentedOutCodeLineE"<This block of commented-out lines of code should be removed.(”Ü¿µ8§Ãî„É.
+nsquid:CommentedOutCodeLine""<This block of commented-out lines of code should be removed.(õ¨©þùÿÿÿÿ8Å‡Ï„É.

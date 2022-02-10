@@ -1,0 +1,4 @@
+
+Ysquid:S1854";Remove this useless assignment to local variable "newNode".(Å¼’ö8ï…—¿Ò.
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÌŸ©›
+Jsquid:S1481",Remove this unused "newNode" local variable.(Å¼’ö8ï…—¿Ò.

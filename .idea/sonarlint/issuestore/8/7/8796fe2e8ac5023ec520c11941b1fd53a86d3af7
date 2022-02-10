@@ -1,0 +1,5 @@
+
+Tsquid:UnusedPrivateMethod"(Remove this unused private "dfs" method.(ËÛˆ8Âõş™ó.
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(—··
+Ÿsquid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ËÛˆ8Âõş™ó.
+Isquid:S1172"+Remove this unused method parameter "root".(ËÛˆ8Âõş™ó.

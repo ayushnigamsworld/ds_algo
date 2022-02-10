@@ -1,0 +1,5 @@
+
+Ysquid:S1854">Remove this useless assignment to local variable "comparable".(ήϊb8®Ιÿμφ.
+Jsquid:S1481"/Remove this unused "comparable" local variable.(ήϊb8®Ιÿμφ.
+zsquid:S1210"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(ή³Ρÿÿÿÿÿ8“όϋμφ.
+1squid:S1220""Move this file to a named package.

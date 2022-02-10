@@ -1,0 +1,13 @@
+
+€"squid:ClassVariableVisibilityCheck
+"MMake V a static final constant or non-public and provide accessors if needed.(Ã€°Íşÿÿÿÿ
+hsquid:S3008
+"LRename this field "V" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã€°Íşÿÿÿÿ
+Lsquid:S1444"5Make this "public static weightedAdjList" field final(ê„ñ
+†"squid:ClassVariableVisibilityCheck	"SMake visited a static final constant or non-public and provide accessors if needed.(Ñ£Äúÿÿÿÿ
+“"squid:ClassVariableVisibilityCheck"YMake adjacencyList a static final constant or non-public and provide accessors if needed.(¶¼©×øÿÿÿÿ8¨Ššó.
+‰"squid:ClassVariableVisibilityCheck"[Make weightedAdjList a static final constant or non-public and provide accessors if needed.(ê„ñ
+Csquid:S1444
+"'Make this "public static V" field final(Ã€°Íşÿÿÿÿ
+Isquid:S1444	"-Make this "public static visited" field final(Ñ£Äúÿÿÿÿ
+Vsquid:S1444"3Make this "public static adjacencyList" field final(¶¼©×øÿÿÿÿ8¨Ššó.

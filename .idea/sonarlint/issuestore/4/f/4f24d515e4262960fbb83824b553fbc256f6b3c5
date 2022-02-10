@@ -1,0 +1,12 @@
+
+Rsquid:EmptyStatementUsageCheck"Remove this empty statement.(ôŸìúÿÿÿÿ8ÀˆÖŸ/
+Rsquid:EmptyStatementUsageCheck"Remove this empty statement.(ôŸìúÿÿÿÿ8ÀˆÖŸ/
+W
+squid:S106ƒ"9Replace this use of System.out or System.err by a logger.(±€áØ8×îƒ¡/
+qsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(˜ğ¤äÿÿÿÿÿ8ÀˆÖŸ/
+ksquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(”Ñ‰8ÀˆÖŸ/
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(³éõ8×îƒ¡/
+[
+squid:S106d"9Replace this use of System.out or System.err by a logger.(‹¯šùÿÿÿÿ8×îƒ¡/
+Rsquid:EmptyStatementUsageCheck)"Remove this empty statement.(ôŸìúÿÿÿÿ8ÀˆÖŸ/

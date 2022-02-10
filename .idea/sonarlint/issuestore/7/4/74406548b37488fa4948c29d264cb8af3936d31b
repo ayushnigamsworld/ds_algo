@@ -1,0 +1,9 @@
+
+]squid:UselessImportCheck"-Remove this unused import 'java.util.Vector'.(ÿŒ¸Áÿÿÿÿÿ8ÃÀÔƒô.
+ssquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(û›şöıÿÿÿÿ8úÎ ƒô.
+V
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(Áá‡š8øÇÖƒô.
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ñ†ÚÓ8Á†¦ƒô.
+[squid:S1197"8Move the array designator from the variable to the type.(ĞŠíüÿÿÿÿ8ïœƒô.

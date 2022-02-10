@@ -1,0 +1,15 @@
+
+?squid:S1643H"Use a StringBuilder instead.(Ğ¯Êòúÿÿÿÿ8ôşï€Ø.
+Msquid:S10664"/Merge this if statement with the enclosing one.(¢¥Èò8˜•¬Ø.
+ssquid:S1192
+"VDefine a constant instead of duplicating this literal "xyz1234hdj8894f9-45hj" 5 times.(´€¤c8Ã€İØ.
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(‹ÌÊÃ8Ô¹İØ.
+Usquid:S1197
+"8Move the array designator from the variable to the type.(´€¤c8Û’êş×.
+Msquid:S10669"/Merge this if statement with the enclosing one.(ùµè—8¯“´Ø.
+v
+squid:S135E"YReduce the total number of break and continue statements in this loop to use at most one.(Ç¿²§8¼¢üØ.
+psquid:S3776("RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(î§ ’8¡ã®Ø.
+Jsquid:S1068",Remove this unused "isSorted" private field.(éÄšû8ñËñş×.
+?squid:S1643P"Use a StringBuilder instead.(Ğ¯Êòúÿÿÿÿ8›ÛØ.

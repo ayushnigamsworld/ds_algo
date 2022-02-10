@@ -1,0 +1,16 @@
+
+:squid:S1643 "Use a StringBuilder instead.(Œª‹8—§éËõ.
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(•ÚÓ¦øÿÿÿÿ8‰ÑÚËõ.
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(Òº·÷ûÿÿÿÿ8ˆÕ×Ëõ.
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(æ”›¶ûÿÿÿÿ8Ó§×Ëõ.
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(õ¹ˆúÿÿÿÿ8½©ÚËõ.
+[
+squid:S106%"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ8€æËõ.
+Hsquid:S00108")Either remove or fill this block of code.(ÿ†·8¾ èËõ.
+^squid:S1854"@Remove this useless assignment to local variable "otherCurrent".(¤Œû‹8Ó‡ŞËõ.
+Ssquid:S1854"5Remove this useless assignment to local variable "m".(ã×ââ8¼òøìö.
+Dsquid:S1481"&Remove this unused "m" local variable.(ã×ââ8¼òøìö.

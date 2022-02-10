@@ -1,0 +1,10 @@
+
+rsquid:S1488<"\Immediately return this expression instead of assigning it to the temporary variable "curr".(²è•E
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ü©Ãìøÿÿÿÿ
+wsquid:S4144#"`Update this method so that its implementation is not identical to "isHeightBalanced" on line 26.(‡¬õ£
+N
+squid:S106"9Replace this use of System.out or System.err by a logger.(¹ÚÃ 
+>squid:S1125"(Remove the literal "true" boolean value.(¹ÚÃ 
+[squid:UnusedPrivateMethod#"6Remove this unused private "isHeightBalancedN" method.(‡¬õ£
+=squid:S1068"&Remove this unused "hm" private field.(ü®Þ¶
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(°âƒçÿÿÿÿÿ

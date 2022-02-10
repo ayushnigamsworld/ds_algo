@@ -1,0 +1,12 @@
+
+8squid:S1220""Move this file to a named package.8üÊÁ±å.
+nsquid:CommentedOutCodeLine
+"<This block of commented-out lines of code should be removed.(Ûç¦‘üÿÿÿÿ8ë•§‡/
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ïûÌÿÿÿÿÿ8ë•§‡/
+^squid:UselessImportCheck".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8öÆù°‰/
+isquid:S18719"LThis branch's code block is the same as the block for the branch on line 55.(¥ıˆs8š¡ÄÌ†/
+`squid:UnusedPrivateMethod+"/Remove this unused private "findDigits" method.(—Çëûûÿÿÿÿ8ë•§‡/
+Ysquid:UnusedPrivateMethod5"-Remove this unused private "isZigZag" method.(ğÏ¢ü8ë•§‡/
+_squid:UselessImportCheck"4Remove this unused import 'java.util.stream.Stream'.(ó÷”8öÆù°‰/
+`squid:UnusedPrivateMethod&"4Remove this unused private "isPerfectSquare" method.(ÎÉüê8ë•§‡/
+Zsquid:UselessImportCheck"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8öÆù°‰/

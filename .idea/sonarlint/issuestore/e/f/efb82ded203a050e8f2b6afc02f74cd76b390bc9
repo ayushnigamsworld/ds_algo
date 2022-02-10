@@ -1,0 +1,35 @@
+
+[
+squid:S106H"9Replace this use of System.out or System.err by a logger.(âã¶¶ıÿÿÿÿ8êµüàŞ.
+usquid:S00117A"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›½÷•şÿÿÿÿ8´¢ûàŞ.
+[
+squid:S1068"9Replace this use of System.out or System.err by a logger.(›å©¾ûÿÿÿÿ8¼†ûáŞ.
+Vsquid:S1197$"8Move the array designator from the variable to the type.(ãú…Ü8„¡‡ÓŞ.
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÓÛ<8ÒëÿàŞ.
+V
+squid:S106F"9Replace this use of System.out or System.err by a logger.(¹œı8êµüàŞ.
+[squid:S1197A"8Move the array designator from the variable to the type.(›½÷•şÿÿÿÿ8´¢ûàŞ.
+Esquid:S16595""Declare "lrow" on a separate line.(Û•‚ÿÿÿÿÿ8Ùï××Ş.
+V
+squid:S106("9Replace this use of System.out or System.err by a logger.(Ò¨áŒ8§æÑáŞ.
+@squid:S1659,""Declare "nrow" on a separate line.(ì‹‹Î8Ø»Ê×Ş.
+Vsquid:S1197"8Move the array designator from the variable to the type.(à²ì²8Å¤õàİ.
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(‰Ùå¤úÿÿÿÿ8ó†‹áŞ.
+V
+squid:S106/"9Replace this use of System.out or System.err by a logger.(öŠèû8‘çÓáŞ.
+V
+squid:S106N"9Replace this use of System.out or System.err by a logger.(ò¤µæ8å‚áŞ.
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(•°Ê¤ÿÿÿÿÿ8›ÛƒáŞ.
+psquid:S00117$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãú…Ü8©ëÙ×Ş.
+V
+squid:S106B"9Replace this use of System.out or System.err by a logger.(ò¤µæ8ÜáŞ.
+[
+squid:S106L"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8êµüàŞ.
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à²ì²8ĞƒêÑŞ.
+Vsquid:S1197"8Move the array designator from the variable to the type.(›Ø˜8õìİÑŞ.
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şø‡şÿÿÿÿ8ĞƒêÑŞ.
+V
+squid:S106J"9Replace this use of System.out or System.err by a logger.(×•œ²8êµüàŞ.

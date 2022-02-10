@@ -1,0 +1,7 @@
+
+nsquid:CommentedOutCodeLine6"<This block of commented-out lines of code should be removed.(—Ô¡Îøÿÿÿÿ8Ð¥ÈÈÐ.
+[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ôÖüÆÐ.
+jsquid:S00112#"FDefine and throw a dedicated exception instead of using a generic one.(áŒÏ±ùÿÿÿÿ8Åï±ÈÐ.
+esquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ØÄ¾â8ƒûÿÇÐ.
+isquid:CommentedOutCodeLine1"<This block of commented-out lines of code should be removed.( Éý®8Ð¥ÈÈÐ.
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ìÛ˜±üÿÿÿÿ

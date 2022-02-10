@@ -1,0 +1,18 @@
+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(Σ¦ωÿÿÿÿ8…Ίάρ.
+Fsquid:S1481"*Remove this unused "difff" local variable.(ΊÒ½½8άψΊάρ.
+Usquid:S1854"9Remove this useless assignment to local variable "difff".(ΊÒ½½8άψΊάρ.
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(όΕή’8άψΊάρ.
+Ssquid:S1854"7Remove this useless assignment to local variable "aaa".(µηύ‘8’Άΐάρ.
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(•ΪΣ¦ψÿÿÿÿ8άψΊάρ.
+|squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ΔΉ΄ύÿÿÿÿ8ύΖ©άρ.
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(Β°ό”ÿÿÿÿÿ8ύΖ©άρ.
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Έƒ™έ8ύΖ©άρ.
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ή«έ8„«άρ.
+Isquid:S1481"(Remove this unused "aaa" local variable.(υ†®ψÿÿÿÿ8’Άΐάρ.

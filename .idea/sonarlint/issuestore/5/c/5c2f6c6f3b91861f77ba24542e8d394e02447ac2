@@ -1,0 +1,11 @@
+
+Rsquid:EmptyStatementUsageCheck!"Remove this empty statement.(ôŸìúÿÿÿÿ8µùĞù.
+>squid:S2129" Remove this "String" constructor(â˜Ê”8®¶¿ù.
+Esquid:S1481"'Remove this unused "aa" local variable.(¸ÿÒŠ8°¢Àù.
+dsquid:UselessImportCheck"4Remove this unused import 'java.util.LinkedHashSet'.(à€¼úÿÿÿÿ8Äã¬‚ù.
+‘"squid:ClassVariableVisibilityCheck"]Make stringsCollection a static final constant or non-public and provide accessors if needed.(€Ùö8µùĞù.
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ËêØ“úÿÿÿÿ
+Tsquid:S1854"6Remove this useless assignment to local variable "aa".(¸ÿÒŠ8°¢Àù.
+dsquid:UselessImportCheck"9Remove this unused import 'java.util.function.Predicate'.(ïÍ–¶8®êøĞù.
+=squid:S1700" Rename field "stringsCollection"(€Ùö8µùĞù.
+Jsquid:S1481"'Remove this unused "ip" local variable.(’è£´ûÿÿÿÿ8•üüŒù.

@@ -1,0 +1,6 @@
+
+isquid:CommentedOutCodeLine-"<This block of commented-out lines of code should be removed.(˜úŠ8õëâ™Ñ.
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÌŸ©›
+U
+squid:S106t"9Replace this use of System.out or System.err by a logger.(âäÛp8€¸–šÑ.
+`squid:S22593"BA "NullPointerException" could be thrown; "temp" is nullable here.(£¡…Ã8´Êä™Ñ.

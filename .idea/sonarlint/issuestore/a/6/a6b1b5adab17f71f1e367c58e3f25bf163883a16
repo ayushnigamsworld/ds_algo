@@ -1,0 +1,7 @@
+
+isquid:CommentedOutCodeLine	"<This block of commented-out lines of code should be removed.(û‚Û8¾àÔÌ.
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(Áýý÷ÿÿÿÿÿ8Æ¢ˆÔÌ.
+[squid:S1197"8Move the array designator from the variable to the type.(ø­ÄØÿÿÿÿÿ8Æ¢ˆÔÌ.
+[squid:S1197"8Move the array designator from the variable to the type.(Ëã¡Šøÿÿÿÿ8Æ¢ˆÔÌ.
+hsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Æéœ08‹ÊòÓÌ.
