@@ -1,16 +1,21 @@
 package mettle;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class SiblingTreeArr {
 
     public static void main(String[] args) {
-        int input2[] = {1, 2, 3, 4, 5, 6};
+        int input2[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15};
         int input1 = input2.length;
-        int input3 = 5;
-        int parent = -1;
+        int input3 = 9;
+
+        Set<Integer> result = findSiblings(input1, input2, input3);
+        result.remove(input3);
+        Integer[] inp = new Integer[result.size()-1];
+        inp = result.toArray(inp);
+        System.out.println(" -> "+ result);
+
+        /*int parent = -1;
         for (int i=0; i<input2.length; i++) {
             int leftChild = 2*i + 1;
             int rightChild = 2*i + 2;
@@ -63,28 +68,26 @@ public class SiblingTreeArr {
         }
         for (int i=0; i<output.length; i++) {
             System.out.println(output[i]);
-        }
+        }*/
     }
 
-    public static int[] findSiblings(int input1, int[] input2, int input3) {
+    public static Set<Integer> findSiblings(int input1, int[] input2, int input3) {
         int[] result = new int[] {-1};
-        if (input2[0] == input3) {
-            return result;
-        }
-
-        int siblingFindIndex = -1;
-        for(int i=0;i<input2.length;i++){
-            if(input2[i]==input3) { //If element at i position is search element
-                siblingFindIndex = i;
-                break; // end loop
+        int cnt = 0;
+        for (int i=0; i<input1; i++) {
+            int count = (int)Math.pow(2, cnt);
+            Set<Integer> list = new HashSet<>();
+            int end = i + count;
+            for (int j=i; j<end && j<input1; j++) {
+                list.add(input2[j]);
             }
+            if (list.contains(input3)) {
+                return list;
+            }
+            i = end-1;
+            cnt++;
         }
-        if(siblingFindIndex>-1){ //index was found in integer array
-            result = new int[]{input2[siblingFindIndex-1],input2[siblingFindIndex+1]}; // add found index+1 as upper sibling and found Index -1 as lower sibling
-            //to do -> check if both elements exists so there can be no array out of bounds
-        }
-
-        return result;
+        return null;
 
     }
 }
