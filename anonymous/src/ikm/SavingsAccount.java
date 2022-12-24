@@ -8,7 +8,7 @@ interface Account {
 
 public class SavingsAccount implements Account {
     public SavingsAccount(BigDecimal initialValue) {
-//        balance = initialValue;
+        //balance = initialValue;
     }
 
     public String toString() {
@@ -16,6 +16,7 @@ public class SavingsAccount implements Account {
     }
 
     public static void main(String [] args) {
-
+        SavingsAccount savingsAccount = new SavingsAccount(new BigDecimal(50.0));
+        System.out.println(savingsAccount);
     }
 }

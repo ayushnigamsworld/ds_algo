@@ -25,13 +25,13 @@ public class Test {
 
     public static void main(String[] args) {
         new Test();
-        Subject subject = Subject.getSubject(AccessController.getContext());
-        Set<Principal> principalSet = subject.getPrincipals();
-        for (Principal principal : principalSet) {
-            if (principal instanceof Test) {
-
-            }
-        }
+//        Subject subject = Subject.getSubject(AccessController.getContext());
+//        Set<Principal> principalSet = subject.getPrincipals();
+//        for (Principal principal : principalSet) {
+//            if (principal instanceof Test) {
+//
+//            }
+//        }
     }
 
     private class Bar {

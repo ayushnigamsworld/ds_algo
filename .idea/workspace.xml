@@ -6,39 +6,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b76288a9-ac20-41c4-8c50-fadb79357794" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/ClassKAndarClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/LongestNonRepeatingSubstring.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/airtelAfrica/Test1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/airtelAfrica/Test2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/amazon/TEst.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/google/Test1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/olx/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/olx/pool/BlockingQ.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/olx/pool/GenericThreadPool.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/olx/pool/MyThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/olx/pool/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/olx/pool/ThreadPicker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/olx/pool/ThreadPickerI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/olx/pool/ThreadPool.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/paypal/MaxTasksInBudget.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/paypal/MyLRU.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/paypal/Test1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/paypal/Test2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coreJava/src/concurrency/PrintEvenOdd.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coreJava/src/concurrency/ThreadBasics.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/educativeIO/src/cyclicSort/DuplicateAndMissing.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/educativeIO/src/cyclicSort/FindKMissingPositiveNumber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/educativeIO/src/cyclicSort/SmallestMissingPositiveNumber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/educativeIO/src/slowFastPointer/HappyBeautifulNumber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/educativeIO/src/subsets/BalancedParanthesis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/educativeIO/src/subsets/DuplicateSubsets.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/educativeIO/src/subsets/PermutationCase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/educativeIO/src/subsets/Permutations.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flipkart/src/main/java/Test1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gfg/Array/MaxProductSubarray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/Coderbyte/GasStation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/Coderbyte/SmallestSubstringContainingKCharacters.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/aa/Hey.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/aa/LongestIncreasingSubs.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/aa/LongestSubstringNonRepeating.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/aa/MinDifference.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/aa/MyTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/aa/NextGreaterElement.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/ajio/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/glider/ListIntegerString.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/glider/TinyHuge.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/glider/tasks10/OutputDoubleInt.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/glider/tasks10/OutputRandom.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/glider/tasks10/OutputStreamBoolean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/ikm/CompletableFutureTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/ikm/DateFormatApp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/ikm/EnhancedFor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/ikm/FormatDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/ikm/IkmTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/ikm/Parallel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/ikm/PersonTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/ikm/UnnamedThread.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/imocha/medium/ConvertXtoY.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/imocha/medium/MinToReplaceDuplicate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/anonymous/src/verticalMove/ClubAnagramsLexicographically.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anonymous/src/mettle/SiblingTreeArr.java" afterPath="$PROJECT_DIR$/anonymous/src/mettle/SiblingTreeArr.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coreJava/src/concurrency/ManyThreads.java" afterPath="$PROJECT_DIR$/coreJava/src/concurrency/ManyThreads.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anonymous/src/glider/Test.java" afterPath="$PROJECT_DIR$/anonymous/src/glider/Test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anonymous/src/ikm/MyClass.java" afterPath="$PROJECT_DIR$/anonymous/src/ikm/MyClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anonymous/src/ikm/SavingsAccount.java" afterPath="$PROJECT_DIR$/anonymous/src/ikm/SavingsAccount.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anonymous/src/ikm/Unnamed.java" afterPath="$PROJECT_DIR$/anonymous/src/ikm/Unnamed.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/LLD/target/" />
@@ -74,7 +71,32 @@
     <favorites_list name="practice" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="LongestSubstringNonRepeating.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anonymous/src/aa/LongestSubstringNonRepeating.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="23" column="63" lean-forward="false" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NextGreaterElement.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/anonymous/src/aa/NextGreaterElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="26" column="46" lean-forward="false" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -88,36 +110,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>prev</find>
-      <find>ListNode</find>
-      <find>Univer</find>
-      <find>int start</find>
-      <find>'</find>
-      <find>addEdge</find>
-      <find>Node</find>
-      <find>input2.length</find>
-      <find>target</find>
-      <find>tree</find>
-      <find>LocalDate</find>
-      <find>Map&lt;</find>
-      <find>CapitalOne</find>
-      <find>asList</find>
-      <find>replace</find>
-      <find>code sig`</find>
-      <find>Arrays</find>
-      <find>*</find>
-      <find>i</find>
-      <find>j</find>
-      <find>&quot;</find>
-      <find>[</find>
-      <find>]</find>
-      <find>sort(</find>
       <find>ong</find>
       <find>LocalDateTime</find>
       <find>sortedQuantites.get(startingIndex)</find>
       <find>heap</find>
       <find>sibling</find>
       <find>HashMap</find>
+      <find>Pair</find>
+      <find>compareUns</find>
+      <find>static class Hel</find>
+      <find>Predicator</find>
+      <find>super</find>
+      <find>Decremen</find>
+      <find>DateFormat</find>
+      <find>Person</find>
+      <find>H2</find>
+      <find>Format</find>
+      <find>&quot;{2</find>
+      <find>Saving</find>
+      <find>i = 10</find>
+      <find>Enhanced</find>
+      <find>getChar</find>
+      <find>Completa</find>
+      <find>ExceptionDemo</find>
+      <find>Optional&lt;String</find>
+      <find>Scanner</find>
+      <find>Bar b</find>
+      <find>&quot;0</find>
+      <find>appendLi</find>
+      <find>petrolPump</find>
+      <find>distance</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -137,6 +159,8 @@
       <replace>{</replace>
       <replace>}</replace>
       <replace>Long</replace>
+      <replace>Pair</replace>
+      <replace>dist</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\MY STUFFFFF\DS_ALGO_practice\src\Arrays</dir>
@@ -157,38 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/flipkart/src/main/java/service/impl/DiseaseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/flipkart/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/flipkart/src/main/java/service/impl/StorageServiceImpl.java" />
-        <option value="$PROJECT_DIR$/flipkart/src/main/java/models/Disease.java" />
-        <option value="$PROJECT_DIR$/flipkart/src/main/java/models/Person.java" />
-        <option value="$PROJECT_DIR$/flipkart/src/main/java/models/Country.java" />
-        <option value="$PROJECT_DIR$/flipkart/src/main/java/service/impl/SummarizerServiceImpl.java" />
-        <option value="$PROJECT_DIR$/flipkart/src/main/java/service/impl/ReportServiceImpl.java" />
-        <option value="$PROJECT_DIR$/gfg/Tree/MyDiameter.java" />
-        <option value="$PROJECT_DIR$/gfg/Tree/MyBurnLeaf.java" />
-        <option value="$PROJECT_DIR$/codeasylums/src/greedy/DisjointIntervals.java" />
-        <option value="$PROJECT_DIR$/codeasylums/src/dp/LIS.java" />
-        <option value="$PROJECT_DIR$/anonymous/src/Schrodinger/LIS.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/flipkart/src/main/java/Test1.java" />
-        <option value="$PROJECT_DIR$/anonymous/src/olx/Test.java" />
-        <option value="$PROJECT_DIR$/coreJava/src/concurrency/ManyThreads.java" />
-        <option value="$PROJECT_DIR$/coreJava/src/concurrency/ThreadBasics.java" />
-        <option value="$PROJECT_DIR$/coreJava/src/concurrency/PrintEvenOdd.java" />
-        <option value="$PROJECT_DIR$/gfg/Array/MaxProductSubarray.java" />
-        <option value="$PROJECT_DIR$/educativeIO/src/slowFastPointer/HappyBeautifulNumber.java" />
-        <option value="$PROJECT_DIR$/anonymous/src/paypal/MaxTasksInBudget.java" />
-        <option value="$PROJECT_DIR$/anonymous/src/LongestNonRepeatingSubstring.java" />
-        <option value="$PROJECT_DIR$/anonymous/src/olx/pool/MyThread.java" />
-        <option value="$PROJECT_DIR$/anonymous/src/olx/pool/GenericThreadPool.java" />
-        <option value="$PROJECT_DIR$/anonymous/src/olx/pool/Task.java" />
-        <option value="$PROJECT_DIR$/anonymous/src/olx/pool/ThreadPickerI.java" />
-        <option value="$PROJECT_DIR$/anonymous/src/olx/pool/BlockingQ.java" />
-        <option value="$PROJECT_DIR$/anonymous/src/olx/pool/ThreadPicker.java" />
-        <option value="$PROJECT_DIR$/../kafka-example-in-scala/src/main/java/com/colobu/kafka/ProducerExample.java" />
-        <option value="$PROJECT_DIR$/../kafka-example-in-scala/src/main/java/com/colobu/kafka/SimplePartitioner.java" />
-        <option value="$PROJECT_DIR$/../kafka-example-in-scala/src/main/java/com/colobu/kafka/ConsumerExample.java" />
         <option value="$PROJECT_DIR$/anonymous/src/olx/pool/ThreadPool.java" />
         <option value="$PROJECT_DIR$/anonymous/src/paypal/Test1.java" />
         <option value="$PROJECT_DIR$/anonymous/src/paypal/Test2.java" />
@@ -208,6 +200,38 @@
         <option value="$PROJECT_DIR$/educativeIO/src/subsets/PermutationCase.java" />
         <option value="$PROJECT_DIR$/educativeIO/src/subsets/BalancedParanthesis.java" />
         <option value="$PROJECT_DIR$/educativeIO/src/subsets/Permutations.java" />
+        <option value="$PROJECT_DIR$/anonymous/src/ajio/Test.java" />
+        <option value="$PROJECT_DIR$/anonymous/src/verticalMove/ClubAnagramsLexicographically.java" />
+        <option value="$PROJECT_DIR$/anonymous/src/imocha/medium/MinToReplaceDuplicate.java" />
+        <option value="$PROJECT_DIR$/anonymous/src/aa/HH.java" />
+        <option value="$PROJECT_DIR$/anonymous/src/aa/LongestIncreasingSubs.java" />
+        <option value="$PROJECT_DIR$/anonymous/src/aa/MyTest.java" />
+        <option value="$PROJECT_DIR$/anonymous/src/imocha/medium/ConvertXtoY.java" />
+        <option value="$PROJECT_DIR$/anonymous/src/glider/GarbageCollection.java" />
+        <option value="$PROJECT_DIR$/anonymous/src/ikm/IkmTest.java" />
+        <option value="$PROJECT_DIR$/anonymous/src/ikm/DateFormatApp.java" />
+        <option value="$PROJECT_DIR$/anonymous/src/ikm/UnnamedThread.java" />
+        <option value="$PROJECT_DIR$/anonymous/src/ikm/PersonTest.java" />
+        <option value="$PROJECT_DIR$/anonymous/src/ikm/FormatDemo.java" />
+        <option value="$PROJECT_DIR$/anonymous/src/ikm/MyClass.java" />
+        <option value="$PROJECT_DIR$/anonymous/src/ikm/SavingsAccount.java" />
+        <option value="$PROJECT_DIR$/anonymous/src/ikm/Unnamed.java" />
+        <option value="$PROJECT_DIR$/anonymous/src/ikm/EnhancedFor.java" />
+        <option value="$PROJECT_DIR$/anonymous/src/ikm/CompletableFutureTest.java" />
+        <option value="$PROJECT_DIR$/anonymous/src/ikm/Parallel.java" />
+        <option value="$PROJECT_DIR$/anonymous/src/aa/Hey.java" />
+        <option value="$PROJECT_DIR$/anonymous/src/glider/Test.java" />
+        <option value="$PROJECT_DIR$/anonymous/src/glider/tasks10/InterfaceC.java" />
+        <option value="$PROJECT_DIR$/anonymous/src/glider/tasks10/OutputDoubleInt.java" />
+        <option value="$PROJECT_DIR$/anonymous/src/glider/tasks10/OutputRandom.java" />
+        <option value="$PROJECT_DIR$/anonymous/src/glider/tasks10/OutputStreamBoolean.java" />
+        <option value="$PROJECT_DIR$/anonymous/src/glider/ListIntegerString.java" />
+        <option value="$PROJECT_DIR$/anonymous/src/glider/TinyHuge.java" />
+        <option value="$PROJECT_DIR$/anonymous/src/Coderbyte/GasStation.java" />
+        <option value="$PROJECT_DIR$/anonymous/src/Coderbyte/SmallestSubstringContainingKCharacters.java" />
+        <option value="$PROJECT_DIR$/anonymous/src/aa/MinDifference.java" />
+        <option value="$PROJECT_DIR$/anonymous/src/aa/LongestSubstringNonRepeating.java" />
+        <option value="$PROJECT_DIR$/anonymous/src/aa/NextGreaterElement.java" />
       </list>
     </option>
   </component>
@@ -216,6 +240,12 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="951" />
@@ -240,8 +270,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -250,47 +279,19 @@
               <item name="ds_algo" type="b2602c69:ProjectViewProjectNode" />
               <item name="ds_algo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ds_algo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds_algo" type="462c0819:PsiDirectoryNode" />
-              <item name="educativeIO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds_algo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds_algo" type="462c0819:PsiDirectoryNode" />
-              <item name="educativeIO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds_algo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds_algo" type="462c0819:PsiDirectoryNode" />
-              <item name="educativeIO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="subsets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds_algo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds_algo" type="462c0819:PsiDirectoryNode" />
-              <item name="gfg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds_algo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds_algo" type="462c0819:PsiDirectoryNode" />
-              <item name="gfg" type="462c0819:PsiDirectoryNode" />
-              <item name="Array" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/USClient/ayesha/ayesha/pom.xml" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/MY STUFFFFF/practice/codeasylums/src/recursion/Subsets.java&#10;:&#9;null&#9;null" />
+    <property name="last_opened_file_path" value="D:/dhandha/pappu_pandey/download_72d8t32t8bc_60s9itp9o9r_46872484/customerreviewserver/pom.xml" />
+    <property name="SearchEverywhereHistoryKey" value="LRU&#9;FILE&#9;file://D:/github/ds_algo/anonymous/src/paypal/MyLRU.java&#10;:&#9;null&#9;null" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -329,15 +330,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Permutations">
-    <configuration name="BalancedParanthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.NextGreaterElement">
+    <configuration name="ListIntegerString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="subsets.*" />
+          <option name="PATTERN" value="glider.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="subsets.BalancedParanthesis" />
+      <option name="MAIN_CLASS_NAME" value="glider.ListIntegerString" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -346,17 +347,17 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="educativeIO" />
+      <module name="anonymous" />
       <envs />
     </configuration>
-    <configuration name="DuplicateSubsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="LongestSubstringNonRepeating" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="subsets.*" />
+          <option name="PATTERN" value="aa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="subsets.DuplicateSubsets" />
+      <option name="MAIN_CLASS_NAME" value="aa.LongestSubstringNonRepeating" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -365,17 +366,17 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="educativeIO" />
+      <module name="anonymous" />
       <envs />
     </configuration>
-    <configuration name="FindKMissingPositiveNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="NextGreaterElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="cyclicSort.*" />
+          <option name="PATTERN" value="aa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="cyclicSort.FindKMissingPositiveNumber" />
+      <option name="MAIN_CLASS_NAME" value="aa.NextGreaterElement" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -384,17 +385,17 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="educativeIO" />
+      <module name="anonymous" />
       <envs />
     </configuration>
-    <configuration name="PermutationCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="OutputStreamBoolean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="subsets.*" />
+          <option name="PATTERN" value="glider.tasks10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="subsets.PermutationCase" />
+      <option name="MAIN_CLASS_NAME" value="glider.tasks10.OutputStreamBoolean" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -403,17 +404,17 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="educativeIO" />
+      <module name="anonymous" />
       <envs />
     </configuration>
-    <configuration name="Permutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TinyHuge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="subsets.*" />
+          <option name="PATTERN" value="glider.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="subsets.Permutations" />
+      <option name="MAIN_CLASS_NAME" value="glider.TinyHuge" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -422,7 +423,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="educativeIO" />
+      <module name="anonymous" />
       <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -441,19 +442,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.FindKMissingPositiveNumber" />
-      <item index="1" class="java.lang.String" itemvalue="Application.DuplicateSubsets" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Permutations" />
-      <item index="3" class="java.lang.String" itemvalue="Application.PermutationCase" />
-      <item index="4" class="java.lang.String" itemvalue="Application.BalancedParanthesis" />
+      <item index="0" class="java.lang.String" itemvalue="Application.OutputStreamBoolean" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ListIntegerString" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TinyHuge" />
+      <item index="3" class="java.lang.String" itemvalue="Application.LongestSubstringNonRepeating" />
+      <item index="4" class="java.lang.String" itemvalue="Application.NextGreaterElement" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Permutations" />
-        <item index="1" class="java.lang.String" itemvalue="Application.BalancedParanthesis" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PermutationCase" />
-        <item index="3" class="java.lang.String" itemvalue="Application.DuplicateSubsets" />
-        <item index="4" class="java.lang.String" itemvalue="Application.FindKMissingPositiveNumber" />
+        <item index="0" class="java.lang.String" itemvalue="Application.NextGreaterElement" />
+        <item index="1" class="java.lang.String" itemvalue="Application.LongestSubstringNonRepeating" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TinyHuge" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ListIntegerString" />
+        <item index="4" class="java.lang.String" itemvalue="Application.OutputStreamBoolean" />
       </list>
     </recent_temporary>
   </component>
@@ -771,7 +772,26 @@
       <workItem from="1659855304421" duration="195000" />
       <workItem from="1660237349517" duration="593000" />
       <workItem from="1660749070623" duration="599000" />
-      <workItem from="1661101192772" duration="11000" />
+      <workItem from="1661101192772" duration="3082000" />
+      <workItem from="1663071864521" duration="1866000" />
+      <workItem from="1665300777060" duration="13516000" />
+      <workItem from="1665932406445" duration="774000" />
+      <workItem from="1666267120590" duration="1441000" />
+      <workItem from="1666319992882" duration="1465000" />
+      <workItem from="1666423582760" duration="1405000" />
+      <workItem from="1666763335969" duration="1573000" />
+      <workItem from="1667101975601" duration="4237000" />
+      <workItem from="1667274788783" duration="187000" />
+      <workItem from="1667285940401" duration="1271000" />
+      <workItem from="1667411560738" duration="2573000" />
+      <workItem from="1667709453562" duration="7438000" />
+      <workItem from="1668229917857" duration="4367000" />
+      <workItem from="1668921594968" duration="1304000" />
+      <workItem from="1669734883218" duration="4157000" />
+      <workItem from="1669824468803" duration="10502000" />
+      <workItem from="1670700993255" duration="5231000" />
+      <workItem from="1671641505589" duration="225000" />
+      <workItem from="1671807696729" duration="601000" />
     </task>
     <servers />
   </component>
@@ -790,7 +810,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2135108000" />
+    <option name="totallyTimeSpent" value="2202312000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1030" extended-state="6" />
@@ -801,20 +821,20 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1913815" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293718" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23470661" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26869455" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5475285" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21189189" sideWeight="0.48552337" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20972973" sideWeight="0.48552337" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18844984" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972972" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3079848" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22644377" sideWeight="0.5144766" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3079848" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -825,7 +845,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902735" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35314092" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958803" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953104" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2563,11 +2583,49 @@
           <properties />
           <option name="timeStamp" value="566" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/anonymous/src/ikm/CompletableFutureTest.java</url>
+          <line>4</line>
+          <properties />
+          <option name="timeStamp" value="574" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/anonymous/src/ikm/EnhancedFor.java</url>
+          <line>4</line>
+          <properties class="ikm.EnhancedFor" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="573" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/anonymous/src/glider/Test.java</url>
+          <line>25</line>
+          <properties class="glider.Test" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="576" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/anonymous/src/glider/ListIntegerString.java</url>
+          <line>7</line>
+          <properties class="glider.ListIntegerString" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="580" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/anonymous/src/glider/TinyHuge.java</url>
+          <line>4</line>
+          <properties class="glider.TinyHuge" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="581" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="567" />
+      <option name="time" value="585" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2694,284 +2752,75 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/codeasylums/src/dp/LIS.java">
+    <entry file="file://$PROJECT_DIR$/gfg/Tree/BurnLeaf.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anonymous/src/Schrodinger/LIS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-          <folding>
-            <element signature="method#findLISRecurse#0;class#LIS#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gfg/Heap/SortKSortedArr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="35" column="42" lean-forward="true" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+        <state relative-caret-position="-1052">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gfg/Heap/PurchasingMaxItems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gfg/Heap/MinHeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="91" column="6" lean-forward="false" selection-start-line="91" selection-start-column="6" selection-end-line="91" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gfg/Array/CircularMaxContiguosSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="39" column="13" lean-forward="false" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gfg/Array/Kadanes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flipkart/src/main/java/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coreJava/src/concurrency/ManyThreads.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="46" column="30" lean-forward="true" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
-          <folding>
-            <element signature="class#628:855" expanded="false" />
-            <element signature="method#call#0;class#628:855" expanded="false" />
-            <element signature="class#884:1111" expanded="false" />
-            <element signature="method#call#0;class#884:1111" expanded="false" />
-            <element signature="class#1140:1367" expanded="false" />
-            <element signature="method#call#0;class#1140:1367" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coreJava/src/concurrency/SimpleThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_311/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="462" column="11" lean-forward="false" selection-start-line="462" selection-start-column="11" selection-end-line="462" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coreJava/src/concurrency/PrintEvenOdd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="49" column="4" lean-forward="true" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
-          <folding>
-            <element signature="method#main#0;class#PrintEvenOdd#0" expanded="false" />
-            <element signature="class#2704:2822" expanded="false" />
-            <element signature="class#2889:3006" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coreJava/src/concurrency/ThreadBasics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-726">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gfg/Array/MaxProductSubarray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="49" lean-forward="false" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/educativeIO/src/slowFastPointer/HappyBeautifulNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#HappyBeautifulNumber#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anonymous/src/LongestNonRepeatingSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-505">
-          <caret line="20" column="60" lean-forward="true" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anonymous/src/olx/Test.java">
+    <entry file="file://$PROJECT_DIR$/anonymous/src/amazon/TEst.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/anonymous/src/olx/pool/MyThread.java">
+    <entry file="file://$PROJECT_DIR$/anonymous/src/ajio/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anonymous/src/olx/pool/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anonymous/src/olx/pool/BlockingQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anonymous/src/olx/pool/GenericThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anonymous/src/olx/pool/ThreadPickerI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anonymous/src/olx/pool/ThreadPicker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../kafka-example-in-scala/src/main/java/com/colobu/kafka/ConsumerExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="48" column="4" lean-forward="false" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../kafka-example-in-scala/src/main/java/com/colobu/kafka/SimplePartitioner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../kafka-example-in-scala/src/main/java/com/colobu/kafka/ProducerExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anonymous/src/paypal/MaxTasksInBudget.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anonymous/src/olx/pool/ThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anonymous/src/paypal/Test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="50" column="54" lean-forward="true" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anonymous/src/paypal/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="33" column="49" lean-forward="true" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_311/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="3798" column="30" lean-forward="false" selection-start-line="3798" selection-start-column="30" selection-end-line="3798" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anonymous/src/paypal/MyLRU.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
-          <caret line="130" column="6" lean-forward="false" selection-start-line="130" selection-start-column="6" selection-end-line="130" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anonymous/src/airtelAfrica/Test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-          <folding />
+        <state relative-caret-position="225">
+          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/anonymous/src/airtelAfrica/Test1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
-          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <caret line="10" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/anonymous/src/ClassKAndarClass.java">
+    <entry file="file://$PROJECT_DIR$/anonymous/src/verticalMove/ClubAnagramsLexicographically.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="1247">
+          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonymous/src/aa/HH.java" />
+    <entry file="file://$PROJECT_DIR$/anonymous/src/imocha/medium/MinToReplaceDuplicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="40" column="14" lean-forward="true" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonymous/src/aa/LongestIncreasingSubs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonymous/src/aa/MyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonymous/src/aa/Patt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonymous/src/paypal/MyLRU.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="59" column="29" lean-forward="false" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -2982,123 +2831,288 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/anonymous/src/aa/AAw.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anonymous/src/google/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anonymous/src/mettle/SiblingTreeArr.java">
+    <entry file="file://$PROJECT_DIR$/anonymous/src/imocha/medium/ConvertXtoY.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
-          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonymous/src/ikm/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonymous/src/ikm/walmart/IKmtest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonymous/src/ikm/MyPredicator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="32" column="47" lean-forward="true" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonymous/src/glider/GarbageCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonymous/src/ikm/IkmTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonymous/src/ikm/DateFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonymous/src/ikm/DateFormatApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="81" lean-forward="false" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonymous/src/ikm/UnnamedThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonymous/src/DateChallenge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="44" column="10" lean-forward="false" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonymous/src/ikm/PersonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="44" column="1" lean-forward="true" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonymous/src/ikm/FormatTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonymous/src/ikm/CHoiceForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonymous/src/ikm/FormatDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonymous/src/ikm/MyClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonymous/src/ikm/SavingsAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonymous/src/ikm/Unnamed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonymous/src/ikm/EnhancedFor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/anonymous/src/amazon/TEst.java">
+    <entry file="file://$PROJECT_DIR$/anonymous/src/ikm/CompletableFutureTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="146">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/educativeIO/src/cyclicSort/SmallestMissingPositiveNumber.java">
+    <entry file="file://$PROJECT_DIR$/anonymous/src/ikm/Parallel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="22" column="5" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="73">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/educativeIO/src/cyclicSort/DuplicateAndMissing.java">
+    <entry file="file://$PROJECT_DIR$/gfg/dynamicProgramming/MakeJump.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="19" column="17" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="19" selection-end-column="17" />
-          <folding>
-            <element signature="e#100#101#0" expanded="true" />
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="method#swap#0;class#DuplicateAndMissing#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/educativeIO/src/cyclicSort/FindKMissingPositiveNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        <state relative-caret-position="50">
+          <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#swap#0;class#FindKMissingPositiveNumber#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/anonymous/src/hackerrank/MinimumSwapsToSort.java">
+    <entry file="file://$PROJECT_DIR$/anonymous/src/aa/Hey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonymous/src/glider/tasks10/InterfaceC.java" />
+    <entry file="file://$PROJECT_DIR$/anonymous/src/glider/tasks10/OutputStreamBoolean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonymous/src/glider/tasks10/OutputRandom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonymous/src/glider/tasks10/OutputDoubleInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/dhandha/assessments/rewards_mandeep/rewards/src/test/java/com/test/rewards/RewardsApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/dhandha/assessments/rewards_mandeep/rewards/src/test/java/com/test/rewards/RewardStatementTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonymous/src/glider/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="33" column="11" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="33" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonymous/src/glider/Romana.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonymous/src/glider/Output1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonymous/src/glider/ListIntegerString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#310#311#0" expanded="false" />
+            <element signature="e#339#340#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonymous/src/glider/TinyHuge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonymous/src/Coderbyte/Agecounting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonymous/src/Coderbyte/GasStation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="38" column="64" lean-forward="false" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonymous/src/Coderbyte/SmallestSubstringContainingKCharacters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonymous/src/aa/MinDifference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonymous/src/aa/LongestSubstringNonRepeating.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
-          <caret line="18" column="57" lean-forward="false" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+          <caret line="23" column="63" lean-forward="false" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/acko/src/main/java/models/Flight.java">
+    <entry file="file://$PROJECT_DIR$/anonymous/src/aa/NextGreaterElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acko/src/main/java/service/impl/StorageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+        <state relative-caret-position="398">
+          <caret line="26" column="46" lean-forward="false" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/educativeIO/src/subsets/PermutationCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="18" column="63" lean-forward="false" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/educativeIO/src/subsets/DuplicateSubsets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/educativeIO/src/subsets/Permutations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding>
-            <element signature="method#findPermutations#0;class#Permutations#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/educativeIO/src/subsets/BalancedParanthesis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>
